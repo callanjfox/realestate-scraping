@@ -1,0 +1,16 @@
+2025-09-24 11:07:46,163 - INFO - Starting incremental sync...
+2025-09-24 11:07:46,163 - INFO - Fetching current property listings...
+2025-09-24 11:07:49,606 - ERROR - Error during incremental sync: BrowserType.launch: Executable doesn't exist at /home/callan/.cache/ms-playwright/chromium_headless_shell-1187/chrome-linux/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-09-24 11:13:49,224 - INFO - Starting incremental sync...
+2025-09-24 11:13:49,225 - INFO - Fetching current property listings...
+2025-09-24 11:13:56,287 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 11:14:03,284 - WARNING - No property cards found on page 1
+2025-09-24 11:14:03,853 - WARNING - No properties found in current listings
