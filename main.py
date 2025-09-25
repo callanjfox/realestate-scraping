@@ -2,15 +2,25 @@
 """
 Main script to run the Real Estate Scraper
 Provides a CLI interface for different scraping operations.
+Now supports both Scrapy (recommended) and legacy Playwright approaches.
 """
 
 import argparse
 import asyncio
 import sys
 from pathlib import Path
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
 
+# Add current directory to path for Scrapy imports
+sys.path.append(str(Path(__file__).parent))
+
+# Legacy Playwright imports
 from scraper import RealEstateScraper
 from incremental_sync import IncrementalSyncer, PeriodicSyncer
+
+# New Scrapy imports
+from realestate_scraper.spiders.realestate_spider import RealEstateSpider
 
 
 def main():
@@ -25,9 +35,12 @@ def main():
                            help='Maximum number of properties to scrape (default: 100)')
     full_parser.add_argument('--url', default='https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1',
                            help='Base URL for property listings')
+    full_parser.add_argument('--engine', choices=['scrapy', 'playwright'], default='scrapy',
+                           help='Scraping engine to use (default: scrapy)')
     full_parser.add_argument('--proxy-server', help='Proxy server URL (e.g., http://proxy:8080)')
     full_parser.add_argument('--proxy-username', help='Proxy username')
     full_parser.add_argument('--proxy-password', help='Proxy password')
+    full_parser.add_argument('--scraperapi-key', help='ScraperAPI key for proxy service')
 
     # Incremental sync command
     incremental_parser = subparsers.add_parser('sync', help='Run incremental sync')
@@ -35,9 +48,12 @@ def main():
                                   help='Maximum number of properties to check (default: 100)')
     incremental_parser.add_argument('--url', default='https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1',
                                   help='Base URL for property listings')
+    incremental_parser.add_argument('--engine', choices=['scrapy', 'playwright'], default='scrapy',
+                                   help='Scraping engine to use (default: scrapy)')
     incremental_parser.add_argument('--proxy-server', help='Proxy server URL')
     incremental_parser.add_argument('--proxy-username', help='Proxy username')
     incremental_parser.add_argument('--proxy-password', help='Proxy password')
+    incremental_parser.add_argument('--scraperapi-key', help='ScraperAPI key for proxy service')
 
     # Periodic sync command
     periodic_parser = subparsers.add_parser('periodic', help='Run periodic sync')
@@ -66,42 +82,132 @@ def main():
             'password': args.proxy_password
         }
 
+    # Prepare ScraperAPI configuration
+    scraperapi_key = getattr(args, 'scraperapi_key', None)
+    engine = getattr(args, 'engine', 'scrapy')
+
     # Run the appropriate command
     if args.command == 'full':
-        asyncio.run(run_full_scrape(args.url, args.max_properties, proxy_config))
+        if engine == 'scrapy':
+            run_scrapy_full_scrape(args.url, args.max_properties, proxy_config, scraperapi_key)
+        else:
+            asyncio.run(run_playwright_full_scrape(args.url, args.max_properties, proxy_config))
     elif args.command == 'sync':
-        asyncio.run(run_incremental_sync(args.url, args.max_properties, proxy_config))
+        if engine == 'scrapy':
+            # For sync, use incremental logic but with Scrapy for fresh data collection
+            asyncio.run(run_scrapy_incremental_sync(args.url, args.max_properties, proxy_config, scraperapi_key))
+        else:
+            asyncio.run(run_incremental_sync(args.url, args.max_properties, proxy_config))
     elif args.command == 'periodic':
         asyncio.run(run_periodic_sync(args.url, args.max_properties, args.interval, proxy_config))
     elif args.command == 'status':
         show_status()
 
 
-async def run_full_scrape(url: str, max_properties: int, proxy_config: dict = None):
-    """Run full scrape"""
-    print(f"Starting full scrape for {max_properties} properties...")
+def run_scrapy_full_scrape(url: str, max_properties: int, proxy_config: dict = None, scraperapi_key: str = None):
+    """Run full scrape using Scrapy engine"""
+    print(f"Starting Scrapy full scrape for {max_properties} properties...")
     print(f"URL: {url}")
+    print(f"Engine: Scrapy (recommended)")
+
+    # Get Scrapy settings
+    settings = get_project_settings()
+
+    # Configure proxy settings
+    if scraperapi_key:
+        settings.update({
+            'PROXY_ENABLED': True,
+            'SCRAPERAPI_KEY': scraperapi_key,
+        })
+        print(f"Using ScraperAPI with key: {scraperapi_key[:10]}...")
+    elif proxy_config and proxy_config.get('server'):
+        settings.update({
+            'PROXY_ENABLED': True,
+            'PROXY_SERVER': proxy_config['server'],
+            'PROXY_USERNAME': proxy_config.get('username'),
+            'PROXY_PASSWORD': proxy_config.get('password'),
+        })
+        print(f"Using proxy: {proxy_config['server']}")
+    else:
+        print("Running without proxy")
+
+    # Create crawler process
+    process = CrawlerProcess(settings)
+    process.crawl(RealEstateSpider, url=url, max_properties=max_properties)
+    process.start()
+
+    print("\nScrapy full scrape completed!")
+    show_status()
+
+
+async def run_playwright_full_scrape(url: str, max_properties: int, proxy_config: dict = None):
+    """Run full scrape using legacy Playwright engine"""
+    print(f"Starting Playwright full scrape for {max_properties} properties...")
+    print(f"URL: {url}")
+    print(f"Engine: Playwright (legacy)")
     if proxy_config and proxy_config.get('server'):
         print(f"Using proxy: {proxy_config['server']}")
 
     scraper = RealEstateScraper(max_properties=max_properties, proxy_config=proxy_config)
     await scraper.run_full_scrape(url)
 
-    print("\nFull scrape completed!")
+    print("\nPlaywright full scrape completed!")
+    show_status()
+
+
+async def run_scrapy_incremental_sync(url: str, max_properties: int, proxy_config: dict = None, scraperapi_key: str = None):
+    """Run incremental sync using Scrapy for data collection"""
+    print(f"Starting Scrapy incremental sync for up to {max_properties} properties...")
+    print(f"URL: {url}")
+    print(f"Engine: Scrapy (recommended)")
+
+    # First, run a limited Scrapy crawl to get current listings
+    print("Step 1: Collecting current property listings with Scrapy...")
+
+    settings = get_project_settings()
+
+    # Configure proxy settings
+    if scraperapi_key:
+        settings.update({
+            'PROXY_ENABLED': True,
+            'SCRAPERAPI_KEY': scraperapi_key,
+        })
+        print(f"Using ScraperAPI with key: {scraperapi_key[:10]}...")
+    elif proxy_config and proxy_config.get('server'):
+        settings.update({
+            'PROXY_ENABLED': True,
+            'PROXY_SERVER': proxy_config['server'],
+            'PROXY_USERNAME': proxy_config.get('username'),
+            'PROXY_PASSWORD': proxy_config.get('password'),
+        })
+        print(f"Using proxy: {proxy_config['server']}")
+
+    # Run Scrapy crawl
+    process = CrawlerProcess(settings)
+    process.crawl(RealEstateSpider, url=url, max_properties=max_properties)
+    process.start()
+
+    # Then run incremental comparison
+    print("Step 2: Analyzing changes...")
+    syncer = IncrementalSyncer()
+    await syncer.analyze_changes()
+
+    print("\nScrapy incremental sync completed!")
     show_status()
 
 
 async def run_incremental_sync(url: str, max_properties: int, proxy_config: dict = None):
-    """Run incremental sync"""
-    print(f"Starting incremental sync for up to {max_properties} properties...")
+    """Run incremental sync using legacy Playwright engine"""
+    print(f"Starting Playwright incremental sync for up to {max_properties} properties...")
     print(f"URL: {url}")
+    print(f"Engine: Playwright (legacy)")
     if proxy_config and proxy_config.get('server'):
         print(f"Using proxy: {proxy_config['server']}")
 
     syncer = IncrementalSyncer(proxy_config=proxy_config)
     await syncer.run_incremental_sync(url, max_properties)
 
-    print("\nIncremental sync completed!")
+    print("\nPlaywright incremental sync completed!")
     show_status()
 
 

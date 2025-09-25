@@ -18,10 +18,14 @@ from scraper import RealEstateScraper, PropertyDetailed
 class IncrementalSyncer:
     """Handles incremental synchronization of property data"""
 
-    def __init__(self, data_dir: str = "data"):
+    def __init__(self, data_dir: str = "data", proxy_config: dict = None):
         self.data_dir = Path(data_dir)
         self.logs_dir = self.data_dir / "logs"
         self.properties_dir = self.data_dir / "properties"
+        self.proxy_config = proxy_config
+
+        # Ensure directories exist
+        self.logs_dir.mkdir(parents=True, exist_ok=True)
 
         # Setup logging
         logging.basicConfig(
@@ -47,6 +51,96 @@ class IncrementalSyncer:
 
         hash_string = json.dumps(key_fields, sort_keys=True)
         return hashlib.md5(hash_string.encode()).hexdigest()
+
+    async def analyze_changes(self):
+        """Analyze changes in property data (for use after Scrapy crawl)"""
+        try:
+            self.logger.info("Analyzing property changes...")
+
+            # Load existing scraped properties log
+            scraped_log_file = self.logs_dir / 'scraped_properties.json'
+            current_properties = {}
+
+            if scraped_log_file.exists():
+                try:
+                    with open(scraped_log_file, 'r', encoding='utf-8') as f:
+                        current_properties = json.load(f)
+                    self.logger.info(f"Loaded {len(current_properties)} current properties from log")
+                except Exception as e:
+                    self.logger.error(f"Error loading scraped properties log: {e}")
+                    return
+
+            # Load previous sync state
+            last_sync_file = self.logs_dir / 'last_incremental_sync.json'
+            previous_properties = {}
+
+            if last_sync_file.exists():
+                try:
+                    with open(last_sync_file, 'r', encoding='utf-8') as f:
+                        sync_data = json.load(f)
+                        previous_properties = sync_data.get('properties', {})
+                    self.logger.info(f"Loaded {len(previous_properties)} properties from previous sync")
+                except Exception as e:
+                    self.logger.warning(f"Error loading previous sync data: {e}")
+
+            # Compare properties
+            changes = {
+                'new': [],
+                'changed': [],
+                'removed': [],
+                'unchanged': []
+            }
+
+            # Check for new and changed properties
+            for prop_id, current_data in current_properties.items():
+                if prop_id not in previous_properties:
+                    changes['new'].append(prop_id)
+                    self.logger.info(f"New property: {prop_id}")
+                else:
+                    current_hash = current_data.get('hash', '')
+                    previous_hash = previous_properties[prop_id].get('hash', '')
+
+                    if current_hash != previous_hash:
+                        changes['changed'].append(prop_id)
+                        self.logger.info(f"Changed property: {prop_id}")
+                    else:
+                        changes['unchanged'].append(prop_id)
+
+            # Check for removed properties
+            for prop_id in previous_properties:
+                if prop_id not in current_properties:
+                    changes['removed'].append(prop_id)
+                    self.logger.info(f"Removed property: {prop_id}")
+
+            # Save sync results
+            sync_result = {
+                'timestamp': datetime.now(timezone.utc).isoformat(),
+                'changes': changes,
+                'properties': current_properties,
+                'summary': {
+                    'new_count': len(changes['new']),
+                    'changed_count': len(changes['changed']),
+                    'removed_count': len(changes['removed']),
+                    'unchanged_count': len(changes['unchanged']),
+                    'total_count': len(current_properties)
+                }
+            }
+
+            with open(last_sync_file, 'w', encoding='utf-8') as f:
+                json.dump(sync_result, f, indent=2, ensure_ascii=False)
+
+            # Log summary
+            self.logger.info(f"Change analysis complete:")
+            self.logger.info(f"  New: {len(changes['new'])}")
+            self.logger.info(f"  Changed: {len(changes['changed'])}")
+            self.logger.info(f"  Removed: {len(changes['removed'])}")
+            self.logger.info(f"  Unchanged: {len(changes['unchanged'])}")
+
+            return sync_result
+
+        except Exception as e:
+            self.logger.error(f"Error in analyze_changes: {e}")
+            raise
 
     async def detect_changes(self, new_properties: List[Dict]) -> Dict[str, List[str]]:
         """Detect which properties are new, changed, or removed"""

@@ -227,6 +227,13 @@ class RealEstateScraper:
                     'username': self.proxy_config.get('username'),
                     'password': self.proxy_config.get('password')
                 }
+                # Add SSL ignore args when using proxy
+                launch_options['args'].extend([
+                    '--ignore-ssl-errors',
+                    '--ignore-certificate-errors',
+                    '--ignore-certificate-errors-spki-list',
+                    '--accept-insecure-certs'
+                ])
                 self.logger.info(f"Using proxy: {self.proxy_config.get('server')}")
 
             browser = await playwright.chromium.launch(**launch_options)
@@ -394,6 +401,13 @@ class RealEstateScraper:
                     'username': self.proxy_config.get('username'),
                     'password': self.proxy_config.get('password')
                 }
+                # Add SSL ignore args when using proxy
+                launch_options['args'].extend([
+                    '--ignore-ssl-errors',
+                    '--ignore-certificate-errors',
+                    '--ignore-certificate-errors-spki-list',
+                    '--accept-insecure-certs'
+                ])
                 self.logger.info(f"Using proxy: {self.proxy_config.get('server')}")
 
             browser = await playwright.chromium.launch(**launch_options)

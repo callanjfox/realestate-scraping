@@ -134,3 +134,37 @@ await self._random_delay(1, 3)
 1. Extend the `PropertyDetailed` dataclass in scraper.py
 2. Update extraction logic in `scrape_property_details()`
 3. Modify the data schema documentation in data/schema.md
+
+## Requirements
+
+- Python 3.x is required (checked by setup.sh)
+- Dependencies listed in requirements.txt (Playwright, aiohttp, aiofiles, asyncio-throttle)
+
+## Troubleshooting
+
+### Rate Limiting (429 Errors)
+- Use proxy services for IP rotation
+- Increase delays between requests in scraper.py
+- Run during off-peak hours
+- Test connectivity with `python test_connection.py`
+
+### Browser Issues
+```bash
+# Reinstall browsers if Playwright fails
+playwright install --force chromium
+
+# Test connection first
+python test_connection.py
+```
+
+### Missing Data
+- Check logs in data/logs/scraper.log
+- Update CSS selectors in `_extract_property_basic()` and `scrape_property_details()`
+- Test with single property first
+
+## Important Development Guidelines
+
+- **NEVER create files unless absolutely necessary** - Always prefer editing existing files
+- **NEVER proactively create documentation files** (*.md) or README files unless explicitly requested
+- Always test with small batches first (`--max-properties 10`) before full runs
+- The scraper implements defensive measures - respect rate limits and use appropriate delays
