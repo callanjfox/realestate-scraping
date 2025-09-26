@@ -761,20 +761,20 @@ class RefinedXPathExtractor:
 
 
 def extract_sample_properties():
-    """Extract 5 sample properties for demonstration"""
+    """Extract 5 real properties from Brisbane listings"""
 
-    print("🚀 EXTRACTING SAMPLE PROPERTIES")
+    print("🚀 EXTRACTING REAL BRISBANE PROPERTIES")
     print("="*70)
 
     extractor = RefinedXPathExtractor()
 
-    # Sample property URLs for testing (known working properties)
+    # Real property URLs for extraction (current Brisbane listings)
     sample_urls = [
-        "https://www.realestate.com.au/property-house-qld-wilston-149008036",
-        "https://www.realestate.com.au/property-apartment-qld-south+bank-148928524",
-        "https://www.realestate.com.au/property-house-qld-paddington-149007234",
-        "https://www.realestate.com.au/property-apartment-qld-west+end-149008987",
-        "https://www.realestate.com.au/property-house-qld-newstead-149009123"
+        "https://www.realestate.com.au/property-house-qld-new+farm-149156472",
+        "https://www.realestate.com.au/property-house-qld-milton-149140304",
+        "https://www.realestate.com.au/property-house-qld-kangaroo+point-149125276",
+        "https://www.realestate.com.au/property-house-qld-highgate+hill-149119920",
+        "https://www.realestate.com.au/property-house-qld-spring+hill-149085488"
     ]
 
     successful_extractions = 0
