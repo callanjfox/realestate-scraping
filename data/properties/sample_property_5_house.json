@@ -1,0 +1,61 @@
+{
+  "id": "149010456",
+  "url": "https://www.realestate.com.au/property-house-qld-sample-149010456",
+  "scraped_at": "2025-09-26T18:45:13.506515+00:00",
+  "method": "refined_xpath_container_extraction",
+  "title": "78 Ashgrove Avenue, Ashgrove, Qld 4060",
+  "address": "78 Ashgrove Avenue, Ashgrove, Qld 4060",
+  "full_address": "78 Ashgrove Avenue, Ashgrove, Qld 4060",
+  "bedrooms": 5,
+  "bathrooms": 3,
+  "car_spaces": 4,
+  "land_size": "821m²",
+  "offer": "$1.8M - $1.95M",
+  "agent_name": "David Thompson",
+  "agency_name": "Harcourts Ashgrove",
+  "agency_address": "464 Sample Street, BRISBANE, QLD 4000",
+  "property_type": "house",
+  "property_features": [
+    "Pool",
+    "Tennis court",
+    "Workshop",
+    "Garden shed",
+    "Solar",
+    "Land size: 821m²",
+    "Bedrooms: 5",
+    "Bathrooms: 3",
+    "Modern fixtures",
+    "Quality finishes"
+  ],
+  "property_highlights": [
+    "Family estate",
+    "Premium location",
+    "Entertainer's paradise",
+    "Excellent location",
+    "Quality construction",
+    "Great value"
+  ],
+  "description_title": "PERFECT HOUSE IN PRIME LOCATION!",
+  "description_body": "This 5 bedroom house offers exceptional value in a prime location. Features include Pool, Tennis court, Workshop and much more. Perfect for families or investors looking for quality and location.",
+  "property_id": "149010456",
+  "inspections": [
+    {
+      "time": "Saturday 12:00-12:30pm",
+      "source": "sample_data"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://i2.au.reastatic.net/800x600/sample_149010456/main.jpg",
+      "type": "main_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/sample_149010456/image1.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/sample_149010456/image2.jpg",
+      "type": "property_photo"
+    }
+  ]
+}

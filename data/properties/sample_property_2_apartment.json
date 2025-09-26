@@ -1,0 +1,61 @@
+{
+  "id": "148928524",
+  "url": "https://www.realestate.com.au/property-apartment-qld-sample-148928524",
+  "scraped_at": "2025-09-26T18:45:13.505293+00:00",
+  "method": "refined_xpath_container_extraction",
+  "title": "1909/289 Grey Street, South Bank, Qld 4101",
+  "address": "1909/289 Grey Street, South Bank, Qld 4101",
+  "full_address": "1909/289 Grey Street, South Bank, Qld 4101",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "car_spaces": 2,
+  "land_size": "142m²",
+  "offer": "$850,000",
+  "agent_name": "Elisa Wellington",
+  "agency_name": "Property Services - South Brisbane",
+  "agency_address": "529 Sample Street, BRISBANE, QLD 4000",
+  "property_type": "apartment",
+  "property_features": [
+    "Pool",
+    "Gym",
+    "Balcony",
+    "River views",
+    "Security",
+    "Land size: 142m²",
+    "Bedrooms: 3",
+    "Bathrooms: 2",
+    "Modern fixtures",
+    "Quality finishes"
+  ],
+  "property_highlights": [
+    "CBD location",
+    "River views",
+    "Luxury finishes",
+    "Excellent location",
+    "Quality construction",
+    "Great value"
+  ],
+  "description_title": "PERFECT APARTMENT IN PRIME LOCATION!",
+  "description_body": "This 3 bedroom apartment offers exceptional value in a prime location. Features include Pool, Gym, Balcony and much more. Perfect for families or investors looking for quality and location.",
+  "property_id": "148928524",
+  "inspections": [
+    {
+      "time": "Saturday 12:00-12:30pm",
+      "source": "sample_data"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://i2.au.reastatic.net/800x600/sample_148928524/main.jpg",
+      "type": "main_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/sample_148928524/image1.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/sample_148928524/image2.jpg",
+      "type": "property_photo"
+    }
+  ]
+}
