@@ -17,7 +17,7 @@ class RefinedXPathExtractor:
     """Refined extractor using exact XPaths as containers with intelligent sub-extraction"""
 
     def __init__(self):
-        self.api_key = "NPI86EDJ0YRYGC3L4ZRSOI7I2TEBFT6HWHOZF0YOJDHE9G49YA2SEUELJ0P5WFRPFN4SDF4POKYQWSZC"
+        self.api_key = "PJD8I9K7SMRHKW86IK6WNZ8LPZ2ALCFRP4MKDXAJ0DNCUQX6VJ1HHIZBJN1K40VKSZERRFRJD8YF6GAX"
         self.client = ScrapingBeeClient(api_key=self.api_key)
 
         # Working XPaths (validated to work)

@@ -1,0 +1,251 @@
+{
+  "id": "149156472",
+  "url": "https://www.realestate.com.au/property-house-qld-new+farm-149156472",
+  "scraped_at": "2025-09-26T20:30:36.148627+00:00",
+  "method": "refined_xpath_container_extraction",
+  "title": "71 Browne Street, New Farm, Qld 4005",
+  "address": "71 Browne Street, New Farm, Qld 4005",
+  "full_address": "71 Browne Street, New Farm, Qld 4005",
+  "bedrooms": 5,
+  "bathrooms": 2,
+  "car_spaces": 2,
+  "land_size": "564m²",
+  "offer": "Best offers by 21st October",
+  "agent_name": "Brett Greensill",
+  "agency_name": "McGrath Estate Agents - NEW FARM",
+  "agency_address": "876 Brunswick Street, NEW FARM, QLD 4005",
+  "property_highlights": [
+    "Renovated QueenslanderFuses historic charm with modern comforts, polished timber floors, A/C.",
+    "Renovated QueenslanderFuses historic charm with modern comforts, polished timber floors, A/C.",
+    "Fuses historic charm with modern comforts, polished timber floors, A/C.",
+    "Dual living zonesSelf-contained downstairs suite, open-plan upstairs, 5 bedrooms.",
+    "Dual living zonesSelf-contained downstairs suite, open-plan upstairs, 5 bedrooms.",
+    "Self-contained downstairs suite, open-plan upstairs, 5 bedrooms.",
+    "Saltwater pool & deckSparkling inground pool, huge covered deck, private low-maintenance garden.",
+    "Saltwater pool & deckSparkling inground pool, huge covered deck, private low-maintenance garden."
+  ],
+  "property_features": [
+    "About the propertyLand size: 564mÂ²",
+    "Land size: 564mÂ²",
+    "Bedrooms & bathroomsBuilt-in wardrobesEnsuites: 1",
+    "Built-in wardrobesEnsuites: 1",
+    "Built-in wardrobes",
+    "Ensuites: 1",
+    "ParkingOpen car spaces: 2Remote garageSecure parking",
+    "Open car spaces: 2Remote garageSecure parking",
+    "Open car spaces: 2",
+    "Remote garage",
+    "Secure parking",
+    "Heating & coolingAir conditioningSplit-system air con",
+    "Air conditioningSplit-system air con",
+    "Air conditioning",
+    "Split-system air con",
+    "Energy efficiency & sustainabilitySolar panels",
+    "Solar panels",
+    "Indoor featuresDishwasherFloorboardsIntercomStudy",
+    "DishwasherFloorboardsIntercomStudy",
+    "Dishwasher"
+  ],
+  "inspections": [
+    {
+      "time": "Saturday",
+      "source": "container_text",
+      "full_text": "TodaySaturday 27 SeptemberFrom 12:00â12:30 pmAdd to planNext ThursdayThursday 2 OctoberFrom 5:00â5:30 pmAdd to planNone of these times suit?Request an inspection"
+    },
+    {
+      "time": "Thursday",
+      "source": "container_text",
+      "full_text": "TodaySaturday 27 SeptemberFrom 12:00â12:30 pmAdd to planNext ThursdayThursday 2 OctoberFrom 5:00â5:30 pmAdd to planNone of these times suit?Request an inspection"
+    }
+  ],
+  "description_title": "Spacious Family Home",
+  "description_body": "Welcome to a New Farm classic reimagined - a stunningly transformed Queenslander on Browne Street that blends timeless charm with modern luxury. Designed with family living in mind, this five-bedroom home offers expansive open-plan spaces, seamless indoorâoutdoor flow, and a spectacular saltwater pool that becomes the heart of your entertaining. With character features beautifully restored, contemporary upgrades throughout, and a prime position close to everything New Farm has to offer, this is a rare opportunity to secure a forever home that truly has it all.\n\n-Renovated Queenslander fusing historic charm with modern comforts\n-Five spacious bedrooms, including a main with ensuite bathroom\n-Expansive open-plan living upstairs spilling onto a huge covered deck\n-Separate self-contained downstairs family suite flowing to a private, low-maintenance garden\n-In immaculate condition, with nothing to spend\n-Gleaming polished timber floors and air-conditioning throughout\n-Sparkling inground saltwater pool - the ultimate entertainer's centrepiece\n-Secure lock-up garage plus off-street undercover parking for a second car\n-Peaceful residential street just moments to New Farm's cafes, shops & lifestyle precincts\n-A true family haven combining space, character, and location in one",
+  "property_id": "149156472",
+  "agent_picture": "https://i2.au.reastatic.net/200x200-crop,gravity=north/88bb0d55f5db8e559948b768a85bd7b5497e7f386fa468cb13d7328f32e90c45/main.jpg",
+  "images": [
+    {
+      "url": "https://i2.au.reastatic.net/800x600/0aa8199fba8c9c942414d2de55792c88f123f38e0f6dbca11517be35712fd4bf/image.jpg",
+      "type": "main_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/fbae14732f26a49b11d92b1ebece22ba2657c03bc4015f5de45b7767b901b2ad/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/9ab8b611b8c32c2498f6ba46543a419b61f4a8458623dfb7df68e7e8e045c070/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/06a29d2dc36c7dc487bf919140e9ee9823bb51a7ac623d5ef82f0aab3039fa06/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/f3aaadd11c2b4d56b5d09cff3b5364f61a4d272f990c1d179b343ea7e88b7cb1/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/6696ea35a55f5fb2cbb67dd64292388b7ea970ed20714d640624eb77ad858ba4/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/4274bace4fbbe0c9bf4c3c75808a4689ca93eb74f19992e028b503892174b802/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/f9f97700f9726c48eed7ce8f7101fba803a272b6782f0ee3dbece6dfa32e19cb/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/0b3b55ed3c87125089bea0de3ce42cdd91c16b19d4abbeb5796dee399d86b622/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/0ae723eaa7df7823b51e159282c4c28693742b58061e58f8bbf1b2310d9772a2/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/37fffdf26ac45fe0b4d1d6b8a198a242128b70d2fed8e716b01145e156d30127/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a0931bdbc19434579a5daa9fc18ed5e7dffb93148611953e1fb190c866fe9552/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a1f04ab93f5d3a2b0dcc645aebe2a6c91a3e58b82631292f1673233f80c2d6ed/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=webp/7d4b4200e1b87888b2016b3ccc9e591e65869c351434f57fdccd7d4582909cf6/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/8f38ddc30a43463f714716b32a66d3c2745cc1d857610be58a1b1b31e4e79a3c/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/bd6c9b4f1f6c010be11500c8869dc009277e73ecafef6e151cffe0e8c498ef34/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/7d4b4200e1b87888b2016b3ccc9e591e65869c351434f57fdccd7d4582909cf6/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=webp/fbae14732f26a49b11d92b1ebece22ba2657c03bc4015f5de45b7767b901b2ad/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/7d4b4200e1b87888b2016b3ccc9e591e65869c351434f57fdccd7d4582909cf6/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/aa79fbe0125f788e6173beefc283342356f11a4afaabcc5762f3f54285afca2a/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/0aa8199fba8c9c942414d2de55792c88f123f38e0f6dbca11517be35712fd4bf/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=avif/fbae14732f26a49b11d92b1ebece22ba2657c03bc4015f5de45b7767b901b2ad/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/88bb0d55f5db8e559948b768a85bd7b5497e7f386fa468cb13d7328f32e90c45/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/66390cd9c570e536672bf6a3a870e316b6973e52c9e8a344d619f17e187762a0/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600-format=webp/0aa8199fba8c9c942414d2de55792c88f123f38e0f6dbca11517be35712fd4bf/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/88bb0d55f5db8e559948b768a85bd7b5497e7f386fa468cb13d7328f32e90c45/main.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/b467f7c8de5eca5d0cc0ecb06e9ab53d6652bc84e5fbf5a555115d1b70b142a0/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/addf54e99fa9c7157b7f3987824f3ebcf07fa5470dfb50b73a5b93e218c485d7/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/2fe588db077b6c3a065bde4d7fe145ec967d5d55417266fc061c1e8b35879781/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/ca26f45cc990b624de230e8215f6491e8687867bf11db8b1a3febfdbb220d9cc/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/c245aa3538be5eabefffceaf7d6e89e44042ff4b8764c5d45c90f304a808dcf7/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/0aa8199fba8c9c942414d2de55792c88f123f38e0f6dbca11517be35712fd4bf/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/0aa8199fba8c9c942414d2de55792c88f123f38e0f6dbca11517be35712fd4bf/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/300x170/a0931bdbc19434579a5daa9fc18ed5e7dffb93148611953e1fb190c866fe9552/main.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/fbae14732f26a49b11d92b1ebece22ba2657c03bc4015f5de45b7767b901b2ad/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600/0aa8199fba8c9c942414d2de55792c88f123f38e0f6dbca11517be35712fd4bf/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/89361fb9bb467ea55b26e6c17b272ebfff99a92b3457a4eaefb24865b308f69c/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/66390cd9c570e536672bf6a3a870e316b6973e52c9e8a344d619f17e187762a0/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=avif/7d4b4200e1b87888b2016b3ccc9e591e65869c351434f57fdccd7d4582909cf6/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=webp/66390cd9c570e536672bf6a3a870e316b6973e52c9e8a344d619f17e187762a0/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/32f0d6eda8d6f2010dae14e5be10c0e67f5625862fa44d0005416c43959d5bb7/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/66390cd9c570e536672bf6a3a870e316b6973e52c9e8a344d619f17e187762a0/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a43eb4c593d823fc2a40887779abaeab97afd3df367d8f3819889c4a29fc55a0/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/c245aa3538be5eabefffceaf7d6e89e44042ff4b8764c5d45c90f304a808dcf7/main.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/3d888ed83f73095cd9cdf4f1fb81ac4683a37304ced52ee0ede9c7c0ce776ce0/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=avif/66390cd9c570e536672bf6a3a870e316b6973e52c9e8a344d619f17e187762a0/image.jpg",
+      "type": "property_photo"
+    }
+  ]
+}
