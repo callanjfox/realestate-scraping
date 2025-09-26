@@ -16,3 +16,94 @@ Call log:
 2025-09-24 12:06:11,038 - INFO - Found 0 properties to scrape
 2025-09-24 12:06:11,038 - INFO - Step 2: Scraping property details...
 2025-09-24 12:06:11,038 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 12:41:46,493 - INFO - Starting full property scrape...
+2025-09-24 12:41:46,494 - INFO - Step 1: Scraping property listings...
+2025-09-24 12:41:47,419 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 12:42:17,452 - INFO - Starting full property scrape...
+2025-09-24 12:42:17,452 - INFO - Step 1: Scraping property listings...
+2025-09-24 12:42:18,306 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 12:42:52,267 - ERROR - Error scraping listings: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("body") to be visible
+    63 × locator resolved to hidden <body>…</body>
+
+2025-09-24 12:42:52,520 - INFO - Found 0 properties to scrape
+2025-09-24 12:42:52,520 - INFO - Step 2: Scraping property details...
+2025-09-24 12:42:52,521 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 13:01:50,481 - INFO - Starting full property scrape...
+2025-09-24 13:01:50,481 - INFO - Step 1: Scraping property listings...
+2025-09-24 13:01:52,075 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 13:02:25,969 - ERROR - Error scraping listings: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("body") to be visible
+    60 × locator resolved to hidden <body>…</body>
+
+2025-09-24 13:02:26,395 - INFO - Found 0 properties to scrape
+2025-09-24 13:02:26,395 - INFO - Step 2: Scraping property details...
+2025-09-24 13:02:26,402 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 13:03:59,534 - INFO - Starting full property scrape...
+2025-09-24 13:03:59,534 - INFO - Step 1: Scraping property listings...
+2025-09-24 13:04:00,620 - INFO - Scraping page 1: https://www.realestate.com.au/buy/
+2025-09-24 13:04:35,196 - ERROR - Error scraping listings: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("body") to be visible
+    63 × locator resolved to hidden <body>…</body>
+
+2025-09-24 13:04:35,449 - INFO - Found 0 properties to scrape
+2025-09-24 13:04:35,449 - INFO - Step 2: Scraping property details...
+2025-09-24 13:04:35,459 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 15:16:30,430 - INFO - Starting full property scrape...
+2025-09-24 15:16:30,430 - INFO - Step 1: Scraping property listings...
+2025-09-24 15:16:32,122 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 15:17:06,339 - ERROR - Error scraping listings: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("body") to be visible
+    64 × locator resolved to hidden <body>…</body>
+
+2025-09-24 15:17:06,494 - INFO - Found 0 properties to scrape
+2025-09-24 15:17:06,494 - INFO - Step 2: Scraping property details...
+2025-09-24 15:17:06,496 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 15:18:25,349 - INFO - Starting full property scrape...
+2025-09-24 15:18:25,349 - INFO - Step 1: Scraping property listings...
+2025-09-24 15:18:25,547 - INFO - Using proxy: https://proxy-server.scraperapi.com:8001
+2025-09-24 15:18:26,142 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 15:18:26,536 - ERROR - Error scraping listings: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+Call log:
+  - navigating to "https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1", waiting until "networkidle"
+
+2025-09-24 15:18:26,722 - INFO - Found 0 properties to scrape
+2025-09-24 15:18:26,724 - INFO - Step 2: Scraping property details...
+2025-09-24 15:18:26,725 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 15:18:40,993 - INFO - Starting full property scrape...
+2025-09-24 15:18:40,993 - INFO - Step 1: Scraping property listings...
+2025-09-24 15:18:41,195 - INFO - Using proxy: http://proxy-server.scraperapi.com:8001
+2025-09-24 15:18:41,733 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 15:18:43,843 - ERROR - Error scraping listings: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+Call log:
+  - navigating to "https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1", waiting until "networkidle"
+
+2025-09-24 15:18:44,202 - INFO - Found 0 properties to scrape
+2025-09-24 15:18:44,202 - INFO - Step 2: Scraping property details...
+2025-09-24 15:18:44,203 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 15:20:15,676 - INFO - Starting full property scrape...
+2025-09-24 15:20:15,676 - INFO - Step 1: Scraping property listings...
+2025-09-24 15:20:15,943 - INFO - Using proxy: http://proxy-server.scraperapi.com:8001
+2025-09-24 15:20:16,505 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 15:20:46,529 - ERROR - Error scraping listings: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1", waiting until "networkidle"
+
+2025-09-24 15:20:46,901 - INFO - Found 0 properties to scrape
+2025-09-24 15:20:46,901 - INFO - Step 2: Scraping property details...
+2025-09-24 15:20:46,955 - INFO - Scraping completed. Scraped: 0, Failed: 0
+2025-09-24 15:47:25,533 - INFO - Starting full property scrape...
+2025-09-24 15:47:25,533 - INFO - Step 1: Scraping property listings...
+2025-09-24 15:47:26,662 - INFO - Scraping page 1: https://www.realestate.com.au/buy/in-brisbane+-+greater+region,+qld/list-1
+2025-09-24 15:48:00,392 - ERROR - Error scraping listings: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("body") to be visible
+    64 × locator resolved to hidden <body>…</body>
+
+2025-09-24 15:48:00,799 - INFO - Found 0 properties to scrape
+2025-09-24 15:48:00,799 - INFO - Step 2: Scraping property details...
+2025-09-24 15:48:00,801 - INFO - Scraping completed. Scraped: 0, Failed: 0

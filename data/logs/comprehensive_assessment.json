@@ -1,0 +1,33 @@
+{
+  "assessment_timestamp": "2025-09-25T16:44:20.310864+00:00",
+  "total_time": 74.91055417060852,
+  "approaches_tested": 3,
+  "successful_approaches": 1,
+  "results": [
+    {
+      "approach": "Session Building",
+      "success": false,
+      "properties_found": 0,
+      "test_duration": 16.52174425125122,
+      "timestamp": "2025-09-25T16:43:21.921803+00:00"
+    },
+    {
+      "approach": "Header Spoofing",
+      "success": false,
+      "properties_found": 0,
+      "test_duration": 20.972096920013428,
+      "timestamp": "2025-09-25T16:43:52.900099+00:00"
+    },
+    {
+      "approach": "Entry Point Variation",
+      "success": true,
+      "properties_found": 1,
+      "test_duration": 7.3959009647369385,
+      "timestamp": "2025-09-25T16:44:10.307332+00:00"
+    }
+  ],
+  "proxy_service": "Oxylabs Australian Residential",
+  "proxy_account": "randomspam_ccS0C (1GB Premium)",
+  "target_site": "realestate.com.au",
+  "protection_detected": "Kasada Enterprise Protection"
+}

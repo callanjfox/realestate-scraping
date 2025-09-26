@@ -1,0 +1,17 @@
+address: /html/body/div[1]/div[4]/div[3]/div[1]/div/div/div[1]/div/div[1]/div[1]/h1
+bedrooms: /html/body/div[1]/div[4]/div[3]/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/div[1]/li[1]/p
+bathrooms: /html/body/div[1]/div[4]/div[3]/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/div[1]/li[3]/p
+carspaces: /html/body/div[1]/div[4]/div[3]/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/div[1]/li[4]/p
+landsize: /html/body/div[1]/div[4]/div[3]/div[1]/div/div/div[1]/div/div[1]/div[2]/ul/div[2]/li/p
+price: /html/body/div[1]/div[4]/div[3]/div[1]/div/div/div[1]/div/div[2]/span
+property_highlights: /html/body/div[1]/div[4]/div[3]/div[2]/div[1]/div/div/div[4]/div[3]
+description_title: /html/body/div[1]/div[4]/div[3]/div[2]/div[1]/div/div/div[5]/div[1]/h2
+description: /html/body/div[1]/div[4]/div[3]/div[2]/div[1]/div/div/div[5]/div[2]/div/div/span/p
+property_features: /html/body/div[1]/div[4]/div[3]/div[2]/div[1]/div/div/div[6]/div/div/div
+inspections: /html/body/div[1]/div[4]/div[3]/div[2]/div[1]/div/div/div[8]/div[2]
+agent_picture: /html/body/div[1]/div[4]/div[3]/div[2]/div[2]/div[1]/div/ul/li/a
+agent_name: /html/body/div[1]/div[4]/div[3]/div[2]/div[2]/div[1]/div/ul/li/div/div[1]/a
+agent_number: /html/body/div[1]/div[4]/div[3]/div[2]/div[2]/div[1]/div/ul/li/div/div[2]/a[2]
+agency_name: /html/body/div[1]/div[4]/div[3]/div[2]/div[2]/div[1]/div/div[2]/a
+agency_address: /html/body/div[1]/div[4]/div[3]/div[2]/div[2]/div[1]/div/div[2]/div
+property_id: /html/body/div[1]/div[4]/div[4]/div[1]/div/div/div[1]/div[2]/p/text()[2]

@@ -1,0 +1,452 @@
+{
+  "id": "149008036",
+  "url": "https://www.realestate.com.au/property-house-qld-wilston-149008036",
+  "scraped_at": "2025-09-26T04:48:11.725004+00:00",
+  "method": "xpath_and_meta_tag_extraction",
+  "title": "13 Noble Street, Wilston, Qld 4051",
+  "address": "13 Noble Street, Wilston, Qld 4051",
+  "property_id": "149008036",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "car_spaces": 3,
+  "land_size": "607m²",
+  "price": "Offers over $1.25M",
+  "agent_name": "Ben Jackson",
+  "agency_name": "Metrocity Realty",
+  "agency_address": "187 Melbourne Street, SOUTH BRISBANE, QLD 4101",
+  "description": "Be quick to see this refurbished two-level home on a generous 607sqm block of land, located in the popular growth suburb of Wilston. \n\nUpstairs you will find:\n-\t3 generous sized bedrooms with ceiling fans\n-\tSpacious living/dining area with polished timber floors and air conditioning \n-\tRenovated kitchen with stone benchtops and new 2pac cupboards\n-\tHuge covered rear deck overlooking a leafy backyard\n-\tModern bathroom with large shower\n-\tExtra study room or home office\n-\tFront staircase and landing\n\nDownstairs comes with:\n-\t2 multiple purpose rooms (just under legal height at 2.35m) with scope to lower flooring or remove ceiling to create the extra few cmâs.\n-\tSpacious rumpus area or games room\n-\tStylish near new bathroom \n-\tKitchen space with cabinetry being replaced\n-\tLong garage plus storage\n-\tConcrete patio area under the upstairs deck\n-\tThe downstairs has had some water damage from Cyclone Alfred and in the process of being fully refurbished back to original condition through insurance.\n-\tHuge back shed or work space\n-\tLandscaped yard with plenty of off-street parking \n\nThe property is located in a convenient Wilston position within the Wilson State School and Kelvin Grove State College. It is walking distance to bus/train, popular Downey Park and a short bike ride to the CBD.\n\nA safe first/second home or smart investment in a blue chip location!\n",
+  "description_body": "Be quick to see this refurbished two-level home on a generous 607sqm block of land, located in the popular growth suburb of Wilston. \n\nUpstairs you will find:\n-\t3 generous sized bedrooms with ceiling fans\n-\tSpacious living/dining area with polished timber floors and air conditioning \n-\tRenovated kitchen with stone benchtops and new 2pac cupboards\n-\tHuge covered rear deck overlooking a leafy backyard\n-\tModern bathroom with large shower\n-\tExtra study room or home office\n-\tFront staircase and landing\n\nDownstairs comes with:\n-\t2 multiple purpose rooms (just under legal height at 2.35m) with scope to lower flooring or remove ceiling to create the extra few cmâs.\n-\tSpacious rumpus area or games room\n-\tStylish near new bathroom \n-\tKitchen space with cabinetry being replaced\n-\tLong garage plus storage\n-\tConcrete patio area under the upstairs deck\n-\tThe downstairs has had some water damage from Cyclone Alfred and in the process of being fully refurbished back to original condition through insurance.\n-\tHuge back shed or work space\n-\tLandscaped yard with plenty of off-street parking \n\nThe property is located in a convenient Wilston position within the Wilson State School and Kelvin Grove State College. It is walking distance to bus/train, popular Downey Park and a short bike ride to the CBD.\n\nA safe first/second home or smart investment in a blue chip location!\n",
+  "features": [
+    "3 generous sized bedrooms with ceiling fans",
+    "Spacious living/dining area with polished timber floors and air conditioning",
+    "Renovated kitchen with stone benchtops and new 2pac cupboards",
+    "Huge covered rear deck overlooking a leafy backyard",
+    "Modern bathroom with large shower",
+    "Extra study room or home office",
+    "Front staircase and landing",
+    "Spacious rumpus area or games room",
+    "Stylish near new bathroom",
+    "Kitchen space with cabinetry being replaced",
+    "Long garage plus storage",
+    "Concrete patio area under the upstairs deck",
+    "Huge back shed or work space",
+    "Landscaped yard with plenty of off-street parking"
+  ],
+  "property_features": [
+    "3 generous sized bedrooms with ceiling fans",
+    "Spacious living/dining area with polished timber floors and air conditioning",
+    "Renovated kitchen with stone benchtops and new 2pac cupboards",
+    "Huge covered rear deck overlooking a leafy backyard",
+    "Modern bathroom with large shower",
+    "Extra study room or home office",
+    "Front staircase and landing",
+    "Spacious rumpus area or games room",
+    "Stylish near new bathroom",
+    "Kitchen space with cabinetry being replaced",
+    "Long garage plus storage",
+    "Concrete patio area under the upstairs deck",
+    "Huge back shed or work space",
+    "Landscaped yard with plenty of off-street parking"
+  ],
+  "property_highlights": [
+    "Be quick to see this refurbished two-level home on a generous 607sqm block of land, located in the popular growth suburb of Wilston.",
+    "Upstairs you will find:\n-\t3 generous sized bedrooms with ceiling fans\n-\tSpacious living/dining area with polished timber floors and air conditioning \n-\tRenovated kitchen with stone benchtops and new 2pac cupboards\n-\tHuge covered rear deck overlooking a leafy backyard\n-\tModern bathroom with large shower\n-\tExtra study room or home office\n-\tFront staircase and landing\n\nDownstairs comes with:\n-\t2 multiple purpose rooms (just under legal height at 2.35m) with scope to lower flooring or remove ceiling"
+  ],
+  "inspections": [
+    {
+      "start_date": "2025-09-27T12:30:00+10:00",
+      "end_date": "2025-09-27T13:00:00+10:00",
+      "url": "https://www.realestate.com.au/property-house-qld-wilston-149008036"
+    }
+  ],
+  "agent_number": "0411015242",
+  "images": [
+    {
+      "url": "https://i2.au.reastatic.net/800x600/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg",
+      "alt": "Main property photo",
+      "type": "main_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/300x170/7167f5ed05f9a22844c9e552dce48f896bdf529ac0d936f93c8af8fe9fe6d4dc/main.jpg",
+      "alt": "Property photo (thumbnail)",
+      "type": "thumbnail"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600-format=webp/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg",
+      "alt": "Property photo (full_size)",
+      "type": "full_size"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=avif/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=webp/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=avif/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=webp/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=avif/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270-format=webp/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/360x270/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/ff80c2daf84870035f111847acf0b2921f97af7eaab9891f802a7dd89211c73c/main.jpg",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg\\\\\\\\\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/3d9aea5430a1641b8bdd17cf25b76440e22e449c041c438f13d47f6423296b45/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/406df0eed6c28c0b2b2b5238584bef0d3274b6817e8d9763d950bb23b03e06d2/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/03f007912d334a7b96787f3a2655e5e21ad6aa91c9f6c890322ed6cb8aa5b9c3/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/f85bdc0274e7fd1b1493d1ea526d4475b8cd81356537f9a92b5e4082a71dad4c/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/6e3e38518e3fa2a0532aaf0cd1e6ae69918efa891aa46be9dca0193fa400c403/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/b29adba929c2328d9ec10fbfd365da7d61aba597304601c9be79fe641914dc4e/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/8bee31593e2cc026b48cbe7b9cf7193ee16cea96ca3f520477305a2c17cf3579/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/148afa4e55b0955378ad6b0d9c2f60bdb4e03d336b3029062fa9aa8adebeaace/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/7d17bf71bde369166ae10f4ad7527ded3182e86233740e1ab0a1948e067dec73/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/e82819f30156271270baa5d9267314d2f4cff8a6654dbde36dff0bc80821bff5/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg\\\\\\\\\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg\\\\\\\\\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/7167f5ed05f9a22844c9e552dce48f896bdf529ac0d936f93c8af8fe9fe6d4dc/main.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/ff80c2daf84870035f111847acf0b2921f97af7eaab9891f802a7dd89211c73c/main.jpg\\\\\\",
+      "alt": "Property photo (property_photo)",
+      "type": "property_photo"
+    }
+  ],
+  "property_type": "house",
+  "downloaded_images": [
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg",
+      "local_path": "data/images/149008036/main_photo_001.jpg",
+      "filename": "main_photo_001.jpg",
+      "size_bytes": 91646,
+      "type": "main_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/300x170/7167f5ed05f9a22844c9e552dce48f896bdf529ac0d936f93c8af8fe9fe6d4dc/main.jpg",
+      "local_path": "data/images/149008036/thumbnail_002.jpg",
+      "filename": "thumbnail_002.jpg",
+      "size_bytes": 4203,
+      "type": "thumbnail"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600-format=webp/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg",
+      "local_path": "data/images/149008036/full_size_003.webp",
+      "filename": "full_size_003.webp",
+      "size_bytes": 85874,
+      "type": "full_size"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270-format=avif/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg",
+      "local_path": "data/images/149008036/property_photo_004.jpg",
+      "filename": "property_photo_004.jpg",
+      "size_bytes": 5780,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270-format=webp/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg",
+      "local_path": "data/images/149008036/property_photo_005.webp",
+      "filename": "property_photo_005.webp",
+      "size_bytes": 6048,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg",
+      "local_path": "data/images/149008036/property_photo_006.jpg",
+      "filename": "property_photo_006.jpg",
+      "size_bytes": 11104,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270-format=avif/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg",
+      "local_path": "data/images/149008036/property_photo_007.jpg",
+      "filename": "property_photo_007.jpg",
+      "size_bytes": 14890,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270-format=webp/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg",
+      "local_path": "data/images/149008036/property_photo_008.webp",
+      "filename": "property_photo_008.webp",
+      "size_bytes": 22978,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg",
+      "local_path": "data/images/149008036/property_photo_009.jpg",
+      "filename": "property_photo_009.jpg",
+      "size_bytes": 23590,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270-format=avif/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg",
+      "local_path": "data/images/149008036/property_photo_010.jpg",
+      "filename": "property_photo_010.jpg",
+      "size_bytes": 5238,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270-format=webp/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg",
+      "local_path": "data/images/149008036/property_photo_011.webp",
+      "filename": "property_photo_011.webp",
+      "size_bytes": 8950,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/360x270/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg",
+      "local_path": "data/images/149008036/property_photo_012.jpg",
+      "filename": "property_photo_012.jpg",
+      "size_bytes": 13097,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/ff80c2daf84870035f111847acf0b2921f97af7eaab9891f802a7dd89211c73c/main.jpg",
+      "local_path": "data/images/149008036/property_photo_013.jpg",
+      "filename": "property_photo_013.jpg",
+      "size_bytes": 5563,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/original/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg\\\\\\\\\\\\\\",
+      "local_path": "data/images/149008036/property_photo_014.png",
+      "filename": "property_photo_014.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_015.png",
+      "filename": "property_photo_015.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/f24b528f4ce09ca841f05991e2591cbd78a118cfa8a74b1935aeead19d90b9fb/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_016.png",
+      "filename": "property_photo_016.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/cc855bb36adeef7f9e97d2f77f715e5c5b16c21b36db5ec48a0749a0459ba53c/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_017.png",
+      "filename": "property_photo_017.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/3d9aea5430a1641b8bdd17cf25b76440e22e449c041c438f13d47f6423296b45/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_018.png",
+      "filename": "property_photo_018.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/406df0eed6c28c0b2b2b5238584bef0d3274b6817e8d9763d950bb23b03e06d2/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_019.png",
+      "filename": "property_photo_019.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/03f007912d334a7b96787f3a2655e5e21ad6aa91c9f6c890322ed6cb8aa5b9c3/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_020.png",
+      "filename": "property_photo_020.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/f85bdc0274e7fd1b1493d1ea526d4475b8cd81356537f9a92b5e4082a71dad4c/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_021.png",
+      "filename": "property_photo_021.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/6e3e38518e3fa2a0532aaf0cd1e6ae69918efa891aa46be9dca0193fa400c403/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_022.png",
+      "filename": "property_photo_022.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/b29adba929c2328d9ec10fbfd365da7d61aba597304601c9be79fe641914dc4e/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_023.png",
+      "filename": "property_photo_023.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/8bee31593e2cc026b48cbe7b9cf7193ee16cea96ca3f520477305a2c17cf3579/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_024.png",
+      "filename": "property_photo_024.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/148afa4e55b0955378ad6b0d9c2f60bdb4e03d336b3029062fa9aa8adebeaace/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_025.png",
+      "filename": "property_photo_025.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/7d17bf71bde369166ae10f4ad7527ded3182e86233740e1ab0a1948e067dec73/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_026.png",
+      "filename": "property_photo_026.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/e82819f30156271270baa5d9267314d2f4cff8a6654dbde36dff0bc80821bff5/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_027.png",
+      "filename": "property_photo_027.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/original/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg\\\\\\\\\\\\\\",
+      "local_path": "data/images/149008036/property_photo_028.png",
+      "filename": "property_photo_028.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/a15eab9a8a6c2fc8b1f6ca152b80634a27d1a39d805e227e87b1e9375659c301/image.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_029.png",
+      "filename": "property_photo_029.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg\\\\\\\\\\\\\\",
+      "local_path": "data/images/149008036/property_photo_030.png",
+      "filename": "property_photo_030.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/7167f5ed05f9a22844c9e552dce48f896bdf529ac0d936f93c8af8fe9fe6d4dc/main.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_031.png",
+      "filename": "property_photo_031.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/{size}/ff80c2daf84870035f111847acf0b2921f97af7eaab9891f802a7dd89211c73c/main.jpg\\\\\\",
+      "local_path": "data/images/149008036/property_photo_032.png",
+      "filename": "property_photo_032.png",
+      "size_bytes": 3879,
+      "type": "property_photo"
+    }
+  ]
+}

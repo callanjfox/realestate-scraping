@@ -1,0 +1,16 @@
+{
+  "id": "149008036",
+  "url": "https://www.realestate.com.au/property-house-qld-wilston-149008036",
+  "scraped_at": "2025-09-26T16:18:01.430564+00:00",
+  "method": "hybrid_xpath_container_extraction",
+  "images": [
+    {
+      "url": "https://i2.au.reastatic.net/800x600/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg",
+      "type": "main_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600/bec39481a50f93c6de264d767bb7b2b624a8bd26ffaf32613a9b042074ca5792/image.jpg",
+      "type": "property_photo"
+    }
+  ]
+}

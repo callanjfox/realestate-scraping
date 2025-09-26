@@ -1,0 +1,16 @@
+{
+  "approach": "Visible Browser Human Simulation",
+  "success": false,
+  "properties_found": 0,
+  "test_duration": 0.8506083488464355,
+  "properties": [],
+  "timestamp": "2025-09-25T16:54:17.921280+00:00",
+  "proxy_type": "Australian Residential Oxylabs",
+  "session_extracted": false,
+  "notes": [
+    "Comprehensive human behavior simulation",
+    "Realistic mouse movements and scrolling",
+    "Human typing patterns",
+    "Session state extraction for handoff"
+  ]
+}
