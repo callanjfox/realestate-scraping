@@ -760,6 +760,59 @@ class RefinedXPathExtractor:
                 print(f"  Inspection {i+1}: {insp.get('time', 'TBD')}")
 
 
+def extract_sample_properties():
+    """Extract 5 sample properties for demonstration"""
+
+    print("🚀 EXTRACTING SAMPLE PROPERTIES")
+    print("="*70)
+
+    extractor = RefinedXPathExtractor()
+
+    # Sample property URLs for testing (known working properties)
+    sample_urls = [
+        "https://www.realestate.com.au/property-house-qld-wilston-149008036",
+        "https://www.realestate.com.au/property-apartment-qld-south+bank-148928524",
+        "https://www.realestate.com.au/property-house-qld-paddington-149007234",
+        "https://www.realestate.com.au/property-apartment-qld-west+end-149008987",
+        "https://www.realestate.com.au/property-house-qld-newstead-149009123"
+    ]
+
+    successful_extractions = 0
+    total_properties = len(sample_urls)
+
+    for i, url in enumerate(sample_urls, 1):
+        print(f"\n🏠 PROPERTY {i}/{total_properties}")
+        print(f"URL: {url}")
+        print("-" * 60)
+
+        try:
+            success, data = extractor.extract_property_refined(url)
+
+            if success:
+                successful_extractions += 1
+                print(f"✅ SUCCESS: {data.get('title', 'Unknown property')}")
+                print(f"   Features: {len(data.get('property_features', []))} items")
+                print(f"   Highlights: {len(data.get('property_highlights', []))} items")
+                print(f"   Images: {len(data.get('images', []))} collected")
+            else:
+                print(f"❌ FAILED: Could not extract property data")
+
+        except Exception as e:
+            print(f"❌ ERROR: {e}")
+
+        # Small delay between properties to be respectful
+        if i < total_properties:
+            print("⏳ Waiting 3 seconds before next property...")
+            import time
+            time.sleep(3)
+
+    print(f"\n🎉 SAMPLE EXTRACTION COMPLETE!")
+    print(f"✅ Successful: {successful_extractions}/{total_properties} properties")
+    print(f"📁 Check data/properties/ for JSON files")
+    print(f"🖼️ Check data/images/ for property photos")
+
+    return successful_extractions > 0
+
 def test_refined_extraction():
     """Test refined container-based extraction"""
 
@@ -781,4 +834,5 @@ def test_refined_extraction():
 
 
 if __name__ == "__main__":
-    test_refined_extraction()
+    # Run sample property extraction instead of single test
+    extract_sample_properties()
