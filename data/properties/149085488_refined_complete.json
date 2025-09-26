@@ -1,7 +1,7 @@
 {
   "id": "149085488",
   "url": "https://www.realestate.com.au/property-house-qld-spring+hill-149085488",
-  "scraped_at": "2025-09-26T20:34:12.200214+00:00",
+  "scraped_at": "2025-09-26T22:12:47.990794+00:00",
   "method": "refined_xpath_container_extraction",
   "title": "69 Hill Street, Spring Hill, Qld 4000",
   "address": "69 Hill Street, Spring Hill, Qld 4000",
@@ -21,7 +21,6 @@
   "property_features": [
     "201mÂ²"
   ],
-  "property_id": "149085488",
   "agent_picture": "https://i2.au.reastatic.net/200x200-crop,gravity=north/b0961cc2e19401a4a99cb2a1156b5a003b4f31d3c08d249cab6211ae75ac1c82/main.jpg",
   "description": "Located in one of Spring Hill's most premium streets, this architecturally reimagined Spring Hill cottage spans three impressive levels and has been crafted to maximise light, space, and liveability. It offers an enviable lifestyle in one of Brisbane's most desirable inner-city locations.\n\nThe clever split-level layout includes four spacious bedrooms, each enhanced by soaring pitched ceilings and floor-to-ceiling windows framing leafy outlooks. The master suite features a private balcony and ensuite, while the top-floor retreat boasts a freestanding bath and sweeping city views â the ultimate place to unwind.\n\nAt the heart of the home, the open-plan living and dining area showcases polished concrete floors and striking architectural lines. The streamlined galley kitchen pairs stainless steel and premium European appliances. Expansive bi-fold doors retract to connect seamlessly with a private courtyard, where lush landscaping and built-in timber seating create a tranquil oasis for everyday living and entertaining.\n\nAdditional features include a dedicated office with custom timber joinery, a practical pantry and utility room with integrated laundry, and thoughtful storage throughout. Reverse-cycle air-conditioning, ceiling fans, and a secure carport ensure year-round comfort and convenience.\n\nPositioned within walking distance of cafÃ©s, restaurants, and the CBD, and hundreds of meters from the newly approved Olympic Aquatic centre, Victoria Park,  St Joseph's College and Brisbane Grammar, this home combines sophistication, space, and lifestyle in a premier location â perfectly suited to both professionals and families.",
   "description_body": "Located in one of Spring Hill's most premium streets, this architecturally reimagined Spring Hill cottage spans three impressive levels and has been crafted to maximise light, space, and liveability. It offers an enviable lifestyle in one of Brisbane's most desirable inner-city locations.\n\nThe clever split-level layout includes four spacious bedrooms, each enhanced by soaring pitched ceilings and floor-to-ceiling windows framing leafy outlooks. The master suite features a private balcony and ensuite, while the top-floor retreat boasts a freestanding bath and sweeping city views â the ultimate place to unwind.\n\nAt the heart of the home, the open-plan living and dining area showcases polished concrete floors and striking architectural lines. The streamlined galley kitchen pairs stainless steel and premium European appliances. Expansive bi-fold doors retract to connect seamlessly with a private courtyard, where lush landscaping and built-in timber seating create a tranquil oasis for everyday living and entertaining.\n\nAdditional features include a dedicated office with custom timber joinery, a practical pantry and utility room with integrated laundry, and thoughtful storage throughout. Reverse-cycle air-conditioning, ceiling fans, and a secure carport ensure year-round comfort and convenience.\n\nPositioned within walking distance of cafÃ©s, restaurants, and the CBD, and hundreds of meters from the newly approved Olympic Aquatic centre, Victoria Park,  St Joseph's College and Brisbane Grammar, this home combines sophistication, space, and lifestyle in a premier location â perfectly suited to both professionals and families.",
@@ -31,23 +30,11 @@
       "type": "main_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/310x175/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "url": "https://i2.au.reastatic.net/{size}/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg\\\\\\\\\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/d206230a9813f1732a87834c154327332732f2051a38aa9345e2f93c5918eb74/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/feacbb559b9eb258bc802a4db2e4b9ca858e93aab8754dc906dd6e932d5e2d86/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=avif/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "url": "https://i2.au.reastatic.net/original/dddcc41b27cd8ecbf01c7147f823a9e0ee0f09639bfb223ee9f77a70b251937b/image.jpg\\\\\\\\\\\\\\",
       "type": "property_photo"
     },
     {
@@ -55,15 +42,27 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/c16f77a84aa8fc1f54495fb3b4a3e80f106008c36d779219aeaf19d3654d3022/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/310x175-format=avif/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/310x175-format=webp/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "url": "https://i2.au.reastatic.net/{size}/36064335629869ff39f54a7f78c3054ff36702b77b1254041901ff1e1fccaf68/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/5c0f0c6edecf0382dc9d6e82430e3be590531249ddb92f8e5e15de9f3e1a35dc/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/b0961cc2e19401a4a99cb2a1156b5a003b4f31d3c08d249cab6211ae75ac1c82/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/d206230a9813f1732a87834c154327332732f2051a38aa9345e2f93c5918eb74/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/0fa1b9a5b9bffdabbf5f9f45870084f4472588de053504fe492a61f1fa639b33/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/040f6a0b7fccb40f4746341e0b22d02ef2928ecb1332e0866f7478ad68c4c91f/main.jpg",
       "type": "property_photo"
     },
     {
@@ -71,11 +70,19 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/040f6a0b7fccb40f4746341e0b22d02ef2928ecb1332e0866f7478ad68c4c91f/main.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/5c0f0c6edecf0382dc9d6e82430e3be590531249ddb92f8e5e15de9f3e1a35dc/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/8e45c31bba10f0e909aeed5a5c6337b58a52835980badd46677ef0275f28ae7c/main.gif\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/3fadb79d7ce1f392aaab724a38b3252575521da53360eaa4cc5e07a3c8aefb7d/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -87,86 +94,6 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/310x175-format=avif/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/3fadb79d7ce1f392aaab724a38b3252575521da53360eaa4cc5e07a3c8aefb7d/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/1e929635239dd2129ea47e93437b950534738f0b971acc14301da82e5186a760/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/973fdcded1d93b6603f82ab152edccffb4851a9fab50604838d424d05d3185a2/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/b0961cc2e19401a4a99cb2a1156b5a003b4f31d3c08d249cab6211ae75ac1c82/main.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/6d3bb0c2b68c3512ff9464038110f97dc4fcf6348ee63197e7527d4996918399/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=avif/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/dddcc41b27cd8ecbf01c7147f823a9e0ee0f09639bfb223ee9f77a70b251937b/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/36064335629869ff39f54a7f78c3054ff36702b77b1254041901ff1e1fccaf68/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/b930fa7d49f8541b4ceb90e604736a5a14c624e84b1e5bf48021748ba86225fd/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/800x600/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/300x170/8e45c31bba10f0e909aeed5a5c6337b58a52835980badd46677ef0275f28ae7c/main.gif",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/original/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg\\\\\\\\\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/0fa1b9a5b9bffdabbf5f9f45870084f4472588de053504fe492a61f1fa639b33/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/bdf794a6d44c62661262cc686ab6235e6af54bae9365eb85ba4355b95d1908d4/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg\\\\\\\\\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=webp/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
-      "type": "property_photo"
-    },
-    {
       "url": "https://i2.au.reastatic.net/{size}/428696c92574d65fac79fb7d5c8df743cc2b198a0f3c07381a93c0085a83912b/image.jpg\\\\\\",
       "type": "property_photo"
     },
@@ -175,7 +102,7 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/original/dddcc41b27cd8ecbf01c7147f823a9e0ee0f09639bfb223ee9f77a70b251937b/image.jpg\\\\\\\\\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/1e929635239dd2129ea47e93437b950534738f0b971acc14301da82e5186a760/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -183,19 +110,198 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/b0961cc2e19401a4a99cb2a1156b5a003b4f31d3c08d249cab6211ae75ac1c82/main.jpg",
+      "url": "https://i2.au.reastatic.net/{size}/c16f77a84aa8fc1f54495fb3b4a3e80f106008c36d779219aeaf19d3654d3022/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/040f6a0b7fccb40f4746341e0b22d02ef2928ecb1332e0866f7478ad68c4c91f/main.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/310x175/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
       "type": "property_photo"
     },
     {
       "url": "https://i2.au.reastatic.net/{size}/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/bdf794a6d44c62661262cc686ab6235e6af54bae9365eb85ba4355b95d1908d4/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/8e45c31bba10f0e909aeed5a5c6337b58a52835980badd46677ef0275f28ae7c/main.gif\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=webp/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/973fdcded1d93b6603f82ab152edccffb4851a9fab50604838d424d05d3185a2/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/6d3bb0c2b68c3512ff9464038110f97dc4fcf6348ee63197e7527d4996918399/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/300x170/8e45c31bba10f0e909aeed5a5c6337b58a52835980badd46677ef0275f28ae7c/main.gif",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=webp/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/040f6a0b7fccb40f4746341e0b22d02ef2928ecb1332e0866f7478ad68c4c91f/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/dddcc41b27cd8ecbf01c7147f823a9e0ee0f09639bfb223ee9f77a70b251937b/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/feacbb559b9eb258bc802a4db2e4b9ca858e93aab8754dc906dd6e932d5e2d86/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=avif/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=avif/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/b930fa7d49f8541b4ceb90e604736a5a14c624e84b1e5bf48021748ba86225fd/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/b0961cc2e19401a4a99cb2a1156b5a003b4f31d3c08d249cab6211ae75ac1c82/main.jpg",
+      "type": "property_photo"
+    }
+  ],
+  "downloaded_images": [
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg",
+      "local_path": "data/images/149085488/main_photo_001.jpg",
+      "filename": "main_photo_001.jpg",
+      "size_bytes": 81721,
+      "type": "main_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=avif/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
+      "local_path": "data/images/149085488/property_photo_005.jpg",
+      "filename": "property_photo_005.jpg",
+      "size_bytes": 10962,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/040f6a0b7fccb40f4746341e0b22d02ef2928ecb1332e0866f7478ad68c4c91f/main.jpg",
+      "local_path": "data/images/149085488/property_photo_010.jpg",
+      "filename": "property_photo_010.jpg",
+      "size_bytes": 5232,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
+      "local_path": "data/images/149085488/property_photo_014.jpg",
+      "filename": "property_photo_014.jpg",
+      "size_bytes": 16230,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600-format=webp/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg",
+      "local_path": "data/images/149085488/property_photo_016.webp",
+      "filename": "property_photo_016.webp",
+      "size_bytes": 71548,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=webp/8e1b6e43f05d67c40710ed393187eff222f5179cb907692023fb271e6b278243/image.jpg",
+      "local_path": "data/images/149085488/property_photo_017.webp",
+      "filename": "property_photo_017.webp",
+      "size_bytes": 15222,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
+      "local_path": "data/images/149085488/property_photo_023.jpg",
+      "filename": "property_photo_023.jpg",
+      "size_bytes": 14927,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=webp/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "local_path": "data/images/149085488/property_photo_027.webp",
+      "filename": "property_photo_027.webp",
+      "size_bytes": 15928,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/300x170/8e45c31bba10f0e909aeed5a5c6337b58a52835980badd46677ef0275f28ae7c/main.gif",
+      "local_path": "data/images/149085488/property_photo_031.jpg",
+      "filename": "property_photo_031.jpg",
+      "size_bytes": 10389,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=webp/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
+      "local_path": "data/images/149085488/property_photo_032.webp",
+      "filename": "property_photo_032.webp",
+      "size_bytes": 13700,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600/344736b659255c4cff95bdb7332108e04b76a85cbdfc13895fb4e50f0175fe46/image.jpg",
+      "local_path": "data/images/149085488/property_photo_036.jpg",
+      "filename": "property_photo_036.jpg",
+      "size_bytes": 81721,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=avif/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "local_path": "data/images/149085488/property_photo_037.jpg",
+      "filename": "property_photo_037.jpg",
+      "size_bytes": 10974,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=avif/4049e6c4ad88bc8d6cc747d8dce7cba54f63e1602db226ae53a5c3f420a0dc5a/image.jpg",
+      "local_path": "data/images/149085488/property_photo_038.jpg",
+      "filename": "property_photo_038.jpg",
+      "size_bytes": 9615,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175/1b540aa660567b08e05327c8d7540696cb010e547457d715f7348f159791920f/image.jpg",
+      "local_path": "data/images/149085488/property_photo_040.jpg",
+      "filename": "property_photo_040.jpg",
+      "size_bytes": 16515,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/b0961cc2e19401a4a99cb2a1156b5a003b4f31d3c08d249cab6211ae75ac1c82/main.jpg",
+      "local_path": "data/images/149085488/property_photo_043.jpg",
+      "filename": "property_photo_043.jpg",
+      "size_bytes": 4580,
       "type": "property_photo"
     }
   ]

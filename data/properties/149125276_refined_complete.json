@@ -1,7 +1,7 @@
 {
   "id": "149125276",
   "url": "https://www.realestate.com.au/property-house-qld-kangaroo+point-149125276",
-  "scraped_at": "2025-09-26T20:32:46.431487+00:00",
+  "scraped_at": "2025-09-26T22:11:39.399348+00:00",
   "method": "refined_xpath_container_extraction",
   "title": "20 Pearson Street, Kangaroo Point, Qld 4169",
   "address": "20 Pearson Street, Kangaroo Point, Qld 4169",
@@ -31,63 +31,11 @@
       "type": "main_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/310x175/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "url": "https://i2.au.reastatic.net/{size}/98f1982950538b4a1ae66f6be55f1e7367876c5ff19ade00513c665649224283/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/800x600/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/800x600-format=webp/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/c3eab08788031d7956d87bc70916e92e5c3a09078ce91a17c728b675a7f78688/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/300x170/9e8435f9179e99051f680785dceef052c9cebae62e8bb7d7b6d73c7b32da4fe8/main.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/a123efbf7cad4a95a5249bd1d4f2ad74653f30f6af1edd383b561af1cc1b0d66/main.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=webp/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/9e8435f9179e99051f680785dceef052c9cebae62e8bb7d7b6d73c7b32da4fe8/main.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg\\\\\\\\\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/96864db78159ddb1922859d897111eddbedc92546b31f43ca0e9d344d9396470/main.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=avif/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/c439aeef4dc2315b200ec3109bd6a60cef929c285a96f97eb9573466e869e978/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/a123efbf7cad4a95a5249bd1d4f2ad74653f30f6af1edd383b561af1cc1b0d66/main.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -95,31 +43,7 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/c6cfe506e185a492ba465e5bb932512a55ef43e33a958c251b98aa438e9e40ee/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=avif/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=webp/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/310x175-format=webp/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/98f1982950538b4a1ae66f6be55f1e7367876c5ff19ade00513c665649224283/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/c439aeef4dc2315b200ec3109bd6a60cef929c285a96f97eb9573466e869e978/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -127,11 +51,7 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/original/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg\\\\\\\\\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/c8c7872cf18095f75e8a9e3d6bc35dd23f0f6cff8cf11ead66fe88f0cdaadc39/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/9e8435f9179e99051f680785dceef052c9cebae62e8bb7d7b6d73c7b32da4fe8/main.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -139,19 +59,23 @@
       "type": "property_photo"
     },
     {
+      "url": "https://i2.au.reastatic.net/{size}/c8c7872cf18095f75e8a9e3d6bc35dd23f0f6cff8cf11ead66fe88f0cdaadc39/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
       "url": "https://i2.au.reastatic.net/original/332d4736dafac50ca47bbfb6bd8ccfe15b31401ecdeb808f7cb036ad22231459/image.jpg\\\\\\\\\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/d03c5f16f3c01f6e4199442e588fae4b34e0fb6603d9e0a8e5e66532e8b5a065/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/04076a75342498cca4235c36d2c8b31da816eb2f7e8f8ce805126fb1b9c9f867/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/c6cfe506e185a492ba465e5bb932512a55ef43e33a958c251b98aa438e9e40ee/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -159,7 +83,190 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/a123efbf7cad4a95a5249bd1d4f2ad74653f30f6af1edd383b561af1cc1b0d66/main.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/04076a75342498cca4235c36d2c8b31da816eb2f7e8f8ce805126fb1b9c9f867/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600-format=webp/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=webp/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/300x170/9e8435f9179e99051f680785dceef052c9cebae62e8bb7d7b6d73c7b32da4fe8/main.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/c3eab08788031d7956d87bc70916e92e5c3a09078ce91a17c728b675a7f78688/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=avif/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=avif/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/d03c5f16f3c01f6e4199442e588fae4b34e0fb6603d9e0a8e5e66532e8b5a065/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=webp/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/96864db78159ddb1922859d897111eddbedc92546b31f43ca0e9d344d9396470/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/310x175-format=webp/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/a123efbf7cad4a95a5249bd1d4f2ad74653f30f6af1edd383b561af1cc1b0d66/main.jpg",
+      "type": "property_photo"
+    }
+  ],
+  "downloaded_images": [
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
+      "local_path": "data/images/149125276/main_photo_001.jpg",
+      "filename": "main_photo_001.jpg",
+      "size_bytes": 122581,
+      "type": "main_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=avif/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
+      "local_path": "data/images/149125276/property_photo_004.jpg",
+      "filename": "property_photo_004.jpg",
+      "size_bytes": 8050,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/96864db78159ddb1922859d897111eddbedc92546b31f43ca0e9d344d9396470/main.jpg",
+      "local_path": "data/images/149125276/property_photo_008.jpg",
+      "filename": "property_photo_008.jpg",
+      "size_bytes": 5700,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600-format=webp/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
+      "local_path": "data/images/149125276/property_photo_016.webp",
+      "filename": "property_photo_016.webp",
+      "size_bytes": 114476,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=webp/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
+      "local_path": "data/images/149125276/property_photo_017.webp",
+      "filename": "property_photo_017.webp",
+      "size_bytes": 12672,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/300x170/9e8435f9179e99051f680785dceef052c9cebae62e8bb7d7b6d73c7b32da4fe8/main.jpg",
+      "local_path": "data/images/149125276/property_photo_019.jpg",
+      "filename": "property_photo_019.jpg",
+      "size_bytes": 15149,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=avif/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
+      "local_path": "data/images/149125276/property_photo_022.jpg",
+      "filename": "property_photo_022.jpg",
+      "size_bytes": 9749,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175/3ed030ae26f32191701ab511797a757533c3e31d5bb60b10b9843d6df605d033/image.jpg",
+      "local_path": "data/images/149125276/property_photo_023.jpg",
+      "filename": "property_photo_023.jpg",
+      "size_bytes": 14205,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "local_path": "data/images/149125276/property_photo_024.jpg",
+      "filename": "property_photo_024.jpg",
+      "size_bytes": 10387,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=avif/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "local_path": "data/images/149125276/property_photo_025.jpg",
+      "filename": "property_photo_025.jpg",
+      "size_bytes": 5175,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600/30b303c3c95e0eb71a7f6468f93b03f6102215e3b835bb6a8aebca0d15102cf9/image.jpg",
+      "local_path": "data/images/149125276/property_photo_027.jpg",
+      "filename": "property_photo_027.jpg",
+      "size_bytes": 122581,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=webp/ba9dac35fa37ee0f7b27f3685b8a0c82b9d18f986d25d28fb0ef7751ec94060d/image.jpg",
+      "local_path": "data/images/149125276/property_photo_029.webp",
+      "filename": "property_photo_029.webp",
+      "size_bytes": 8140,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
+      "local_path": "data/images/149125276/property_photo_030.jpg",
+      "filename": "property_photo_030.jpg",
+      "size_bytes": 15039,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/310x175-format=webp/c5b87fc53fcd535fe7d3e660b595db1663b86591bf5f49a4d1d7515502a05385/image.jpg",
+      "local_path": "data/images/149125276/property_photo_033.webp",
+      "filename": "property_photo_033.webp",
+      "size_bytes": 13626,
+      "type": "property_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/a123efbf7cad4a95a5249bd1d4f2ad74653f30f6af1edd383b561af1cc1b0d66/main.jpg",
+      "local_path": "data/images/149125276/property_photo_034.jpg",
+      "filename": "property_photo_034.jpg",
+      "size_bytes": 5419,
       "type": "property_photo"
     }
   ]

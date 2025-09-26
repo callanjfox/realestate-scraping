@@ -140,6 +140,13 @@ class RefinedXPathExtractor:
                     property_data['images'] = images
                     print(f"  ✅ {len(images)} images found")
 
+                    # Download images
+                    print(f"📥 DOWNLOADING IMAGES...")
+                    downloaded_images = self.download_property_images(property_data, property_id)
+                    if downloaded_images:
+                        property_data['downloaded_images'] = downloaded_images
+                        print(f"  ✅ {len(downloaded_images)} images downloaded")
+
                 # Save complete data
                 self.save_property_data(property_data, property_id)
 
@@ -271,52 +278,47 @@ class RefinedXPathExtractor:
         features = []
 
         try:
-            # Method 1: Look for list items (most common for features)
-            list_items = container.xpath('.//li')
-            for item in list_items:
-                text = item.text_content().strip() if item.text_content() else ''
-                if text and 3 < len(text) < 200 and self.is_valid_feature(text):
-                    features.append(text)
-
-            # Method 2: Look for span elements with features
-            span_items = container.xpath('.//span')
-            for span in span_items:
-                text = span.text_content().strip() if span.text_content() else ''
-                if text and 3 < len(text) < 200 and self.is_valid_feature(text):
-                    features.append(text)
-
-            # Method 3: Look for divs with meaningful content
-            divs = container.xpath('.//div')
-            for div in divs:
-                text = div.text_content().strip() if div.text_content() else ''
-                if text and 3 < len(text) < 200 and self.is_valid_feature(text):
-                    features.append(text)
-
-            # Method 4: Look for paragraphs
-            paragraphs = container.xpath('.//p')
-            for p in paragraphs:
+            # Method 1: Look for specific feature paragraph tags (most reliable)
+            feature_paragraphs = container.xpath('.//p[contains(@class, "Text__Typography") or contains(@class, "ljPIrY")]')
+            for p in feature_paragraphs:
                 text = p.text_content().strip() if p.text_content() else ''
                 if text and 3 < len(text) < 200 and self.is_valid_feature(text):
-                    features.append(text)
+                    # Clean up the feature text
+                    clean_feature = self.clean_feature_text(text)
+                    if clean_feature:
+                        features.append(clean_feature)
 
-            # Method 5: Split container text by separators to catch additional features
-            full_text = container.text_content().strip() if container.text_content() else ''
-            if full_text:
-                # Look for features in description-like text
-                description_features = self.extract_features_from_description_text(full_text)
-                features.extend(description_features)
+            # Method 2: Look for list items
+            if not features:
+                list_items = container.xpath('.//li')
+                for item in list_items:
+                    text = item.text_content().strip() if item.text_content() else ''
+                    if text and 3 < len(text) < 200 and self.is_valid_feature(text):
+                        clean_feature = self.clean_feature_text(text)
+                        if clean_feature:
+                            features.append(clean_feature)
+
+            # Method 3: Look for spans with feature content
+            if not features:
+                span_items = container.xpath('.//span')
+                for span in span_items:
+                    text = span.text_content().strip() if span.text_content() else ''
+                    if text and 3 < len(text) < 200 and self.is_valid_feature(text):
+                        clean_feature = self.clean_feature_text(text)
+                        if clean_feature:
+                            features.append(clean_feature)
 
             # Remove duplicates while preserving order
             unique_features = []
             seen = set()
             for feature in features:
-                feature_clean = feature.lower().strip()
-                if feature_clean not in seen and len(feature_clean) > 2:
-                    seen.add(feature_clean)
+                feature_lower = feature.lower().strip()
+                if feature_lower not in seen and len(feature) > 2:
+                    seen.add(feature_lower)
                     unique_features.append(feature)
 
             if unique_features:
-                property_data['property_features'] = unique_features[:20]  # Increased limit
+                property_data['property_features'] = unique_features[:25]  # Increased limit
                 print(f"      📝 Extracted {len(unique_features)} unique features")
                 return True
 
@@ -324,6 +326,33 @@ class RefinedXPathExtractor:
             print(f"      Error extracting features: {e}")
 
         return False
+
+    def clean_feature_text(self, text):
+        """Clean and validate feature text"""
+
+        # Skip category headers and non-feature text
+        skip_patterns = [
+            'about the property', 'bedrooms & bathrooms', 'parking', 'heating & cooling',
+            'energy efficiency', 'indoor features', 'outdoor features', 'sustainability'
+        ]
+
+        text_lower = text.lower()
+        for pattern in skip_patterns:
+            if pattern in text_lower:
+                return None
+
+        # Clean up the text
+        text = text.strip()
+
+        # Skip very short or very long text
+        if len(text) < 3 or len(text) > 150:
+            return None
+
+        # Skip if it's just a number or contains unwanted elements
+        if text.isdigit() or 'click' in text_lower or 'view' in text_lower:
+            return None
+
+        return text
 
     def extract_features_from_description_text(self, text):
         """Extract features from description text that might mention sheds, pools, etc."""
@@ -686,6 +715,76 @@ class RefinedXPathExtractor:
 
         return images
 
+    def download_property_images(self, property_data, property_id):
+        """Download property images to local storage"""
+
+        images = property_data.get('images', [])
+        if not images:
+            return []
+
+        # Create images directory
+        images_dir = Path(f"data/images/{property_id}")
+        images_dir.mkdir(parents=True, exist_ok=True)
+
+        print(f"    📁 Created directory: {images_dir}")
+
+        downloaded = []
+        import requests
+
+        for i, img_info in enumerate(images):
+            try:
+                img_url = img_info['url']
+                img_type = img_info.get('type', 'unknown')
+
+                # Skip placeholder URLs
+                if '{size}' in img_url or '\\' in img_url:
+                    print(f"      ⏭️ Skipping placeholder URL: {img_url}")
+                    continue
+
+                print(f"      📥 Downloading image {i+1}: {img_type}")
+
+                # Download with timeout and SSL verification disabled
+                img_response = requests.get(img_url, timeout=30, verify=False)
+
+                if img_response.status_code == 200:
+                    # Determine file extension from content type
+                    content_type = img_response.headers.get('content-type', '').lower()
+                    if 'jpeg' in content_type or 'jpg' in content_type:
+                        ext = '.jpg'
+                    elif 'png' in content_type:
+                        ext = '.png'
+                    elif 'webp' in content_type:
+                        ext = '.webp'
+                    else:
+                        ext = '.jpg'  # Default
+
+                    # Create filename
+                    filename = f"{img_type}_{i+1:03d}{ext}"
+                    filepath = images_dir / filename
+
+                    # Save image
+                    with open(filepath, 'wb') as f:
+                        f.write(img_response.content)
+
+                    downloaded.append({
+                        'original_url': img_url,
+                        'local_path': str(filepath),
+                        'filename': filename,
+                        'size_bytes': len(img_response.content),
+                        'type': img_type
+                    })
+
+                    print(f"        ✅ {filename} ({len(img_response.content):,} bytes)")
+
+                else:
+                    print(f"        ❌ Download failed: HTTP {img_response.status_code}")
+
+            except Exception as e:
+                print(f"        ❌ Error downloading image {i+1}: {e}")
+
+        print(f"    📊 Downloaded {len(downloaded)}/{len(images)} images")
+        return downloaded
+
     def extract_property_id_from_url(self, url):
         """Extract property ID from URL"""
         match = re.search(r'-(\d{8,10})(?:\?|#|$)', url)
@@ -747,6 +846,7 @@ class RefinedXPathExtractor:
         print(f"  Inspections: {len(property_data.get('inspections', []))} scheduled")
         print(f"  Agent Picture: {'Found' if property_data.get('agent_picture') else 'Missing'}")
         print(f"  Images: {len(property_data.get('images', []))} found")
+        print(f"  Downloaded: {len(property_data.get('downloaded_images', []))} saved locally")
 
         # Show samples
         if property_data.get('property_features'):
@@ -793,7 +893,7 @@ def extract_sample_properties():
                 print(f"✅ SUCCESS: {data.get('title', 'Unknown property')}")
                 print(f"   Features: {len(data.get('property_features', []))} items")
                 print(f"   Highlights: {len(data.get('property_highlights', []))} items")
-                print(f"   Images: {len(data.get('images', []))} collected")
+                print(f"   Images: {len(data.get('images', []))} URLs, {len(data.get('downloaded_images', []))} downloaded")
             else:
                 print(f"❌ FAILED: Could not extract property data")
 

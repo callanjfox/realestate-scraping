@@ -1,7 +1,7 @@
 {
   "id": "149140304",
   "url": "https://www.realestate.com.au/property-house-qld-milton-149140304",
-  "scraped_at": "2025-09-26T20:31:38.617349+00:00",
+  "scraped_at": "2025-09-26T21:42:31.221010+00:00",
   "method": "refined_xpath_container_extraction",
   "title": "32 Lucy Street, Milton, Qld 4064",
   "address": "32 Lucy Street, Milton, Qld 4064",
@@ -16,111 +16,53 @@
   "agency_address": "6/41 Park Road, MILTON, QLD 4064",
   "property_highlights": [
     "Dual living, 2 full kitchensDual entries, 2 full kitchens, 6 beds, 4 baths for flexible living",
+    "Dual living, 2 full kitchensDual entries, 2 full kitchens, 6 beds, 4 baths for flexible living",
+    "Dual entries, 2 full kitchens, 6 beds, 4 baths for flexible living",
     "3km to Brisbane CBDNext to Frew Park, 3km to CBD, close to shops, cafes & schools",
+    "3km to Brisbane CBDNext to Frew Park, 3km to CBD, close to shops, cafes & schools",
+    "Next to Frew Park, 3km to CBD, close to shops, cafes & schools",
+    "Renovated QueenslanderPre-war home with high-grade appliances, split/ducted A/C, new paint",
     "Renovated QueenslanderPre-war home with high-grade appliances, split/ducted A/C, new paint"
   ],
   "property_features": [
-    "405mÂ²"
+    "Land size: 405mÂ²",
+    "Garage spaces: 2",
+    "Air conditioning",
+    "Ducted cooling",
+    "Reverse-cycle air con",
+    "Split-system air con",
+    "Dishwasher",
+    "Floorboards",
+    "Pay TV access",
+    "Study",
+    "Balcony",
+    "Courtyard",
+    "Deck",
+    "Fully fenced",
+    "Outdoor entertaining area"
   ],
-  "property_id": "149140304",
-  "agent_picture": "https://i2.au.reastatic.net/200x200-crop,gravity=north/00c66bd70b40ff12d75d8b519eb0110ce6807b5da80fd8da9d6759ddf875c5ec/main.jpg",
-  "description": "Imagine living only 3km from the Brisbane CBD whilst experiencing peaceful, leafy Parkside views in a spacious home. Nestled in a quiet street of Milton next door to Frew Park, this stylish two-storey property has been elegantly renovated as a multi-generational home with open plan living spaces. Presenting amazing living opportunities and expansive outdoor areas, the residence is a private paradise just moments from the Brisbane CBD. Enjoy the convenient proximity to local shops, cafes, schools and Brisbaneâs most iconic landmarks. \n\nThe renovated pre-war Queenslander features a separate entry to the lower and upper levels, creating opportunities for large families, home business and separate living opportunities. The lower floor has been recently updated, comprising three bedrooms plus a study, two bathrooms, generous open-plan living, dining and full kitchen. The bedrooms have built-in cabinetry, the master inclusive of a walk-through double wardrobe and private ensuite. The level flows out to your own incredible outdoor living area incorporating a sizeable covered patio and garden, perfect for entertaining or time with the family. \n\nUpstairs hosts three bedrooms, two bathrooms and a gorgeous living space that includes a gourmet kitchen, immense lounge, dining and sitting room. The wrap-around balcony connects to the back deck, allowing you to take in the tranquil natural surrounds privatised by tall gum trees. The master suite offers a walk-in robe and private ensuite, the second and third bedrooms accessing the main bathroom. The wrap-around deck has a walkway that leads to an additional and appealing bonus, a separate shed space that has a myriad of multi-purpose uses from shed, games room or home business. \n\nThe home has been updated through high-grade stainless steel appliances, split-system and ducted air-conditioning, security screens, new fencing and fresh paint both inside and out. Additional features include an abundance of lock-up storage, a workshop, covered parking for two vehicles and internal laundry facilities on both levels. The two floors offer multi-generational living via a lockable internal door and dual entrances, allowing your imagination to run wild with the countless possibilities of this prestigious and immaculately kept residence. \n\nIn catchment of Milton State School and Kelvin Grove College, you will also have your pick of some of Brisbaneâs most elite private schools such as Stuartholme School, Brisbane Girls Grammar and Brisbane Grammar School. Easily accessible public transport makes travel to the CBD, SouthBank, University of Queensland and local amenities a breeze. There may never be such a diverse opportunity in an advantageous location such as this again. A rare opportunity - inspect today.\n\nLower Level\nâ¢\tLower floor recently updated - comprising three bedrooms plus study, two bathrooms, generous open-plan living, dining & full kitchen\nâ¢\tBedrooms with built-in cabinetry, master inc. walk-through wardrobe & private ensuite\nâ¢\tLower level flows out to outdoor living area inc. sizeable covered patio & garden\nUpper Level\nâ¢\tUpstairs hosts three bedrooms, two bathrooms & living inc. gourmet kitchen, immense lounge, dining + sitting room & wrap-around balcony that connects with back deck\nâ¢\tBedrooms with built-ins/access to the main bathroom - master suite with walk-in robe + private ensuite\nâ¢\tWrap-around deck has walkway leading to additional separate space that enjoys multi-purpose as a shed or man cave\n\nSummary Features\nâ¢ Lavish two-storey functional & multi-purpose home next door to Frew Park\nâ¢ Multi-generational living opportunities & optimal outdoor areas 3km from Brisbane CBD\nâ¢ Renovated Queenslander affords separate entry to the lower & upper levels\nâ¢\tHome updated through high-grade stainless steel appliances, split-system+ ducted air-conditioning, security screens, new fencing &fresh paint both inside + out\nâ¢\tAdditional features include an abundance of lock-up storage, a workshop, covered parking for two vehicles & internal laundry facilities on both levels\nâ¢\tTwo levels multi-generational living via a lockable internal door & dual entrances, allowing your imagination to run wild with the countless possibilities\nâ¢\tCatchment for Milton State School/Kelvin Grove College + elite local private schools such as Stuartholme School, Brisbane Girls Grammar & Brisbane Grammar School.\nâ¢\tEasily accessible public transport to the CBD, South Bank & local amenities\n\nDean Property Team Pty Ltd has taken all reasonable steps to ensure that the information contained in this advertisement is true and correct but accept no responsibility and disclaim all liability in respect to any errors, omissions, inaccuracies or misstatements contained. Prospective buyers should make their own enquiries to verify the information contained in this advertisement.",
+  "inspections": [
+    {
+      "time": "Saturday",
+      "source": "container_text",
+      "full_text": "TodaySaturday 27 SeptemberFrom 10:15â10:45 amAdd to planTodaySaturday 27 SeptemberFrom 12:30â1:00 pmAdd to planNone of these times suit?Request an inspection"
+    },
+    {
+      "time": "Saturday",
+      "source": "container_text",
+      "full_text": "TodaySaturday 27 SeptemberFrom 10:15â10:45 amAdd to planTodaySaturday 27 SeptemberFrom 12:30â1:00 pmAdd to planNone of these times suit?Request an inspection"
+    }
+  ],
+  "description_title": "Multi-Generational Milton",
   "description_body": "Imagine living only 3km from the Brisbane CBD whilst experiencing peaceful, leafy Parkside views in a spacious home. Nestled in a quiet street of Milton next door to Frew Park, this stylish two-storey property has been elegantly renovated as a multi-generational home with open plan living spaces. Presenting amazing living opportunities and expansive outdoor areas, the residence is a private paradise just moments from the Brisbane CBD. Enjoy the convenient proximity to local shops, cafes, schools and Brisbaneâs most iconic landmarks. \n\nThe renovated pre-war Queenslander features a separate entry to the lower and upper levels, creating opportunities for large families, home business and separate living opportunities. The lower floor has been recently updated, comprising three bedrooms plus a study, two bathrooms, generous open-plan living, dining and full kitchen. The bedrooms have built-in cabinetry, the master inclusive of a walk-through double wardrobe and private ensuite. The level flows out to your own incredible outdoor living area incorporating a sizeable covered patio and garden, perfect for entertaining or time with the family. \n\nUpstairs hosts three bedrooms, two bathrooms and a gorgeous living space that includes a gourmet kitchen, immense lounge, dining and sitting room. The wrap-around balcony connects to the back deck, allowing you to take in the tranquil natural surrounds privatised by tall gum trees. The master suite offers a walk-in robe and private ensuite, the second and third bedrooms accessing the main bathroom. The wrap-around deck has a walkway that leads to an additional and appealing bonus, a separate shed space that has a myriad of multi-purpose uses from shed, games room or home business. \n\nThe home has been updated through high-grade stainless steel appliances, split-system and ducted air-conditioning, security screens, new fencing and fresh paint both inside and out. Additional features include an abundance of lock-up storage, a workshop, covered parking for two vehicles and internal laundry facilities on both levels. The two floors offer multi-generational living via a lockable internal door and dual entrances, allowing your imagination to run wild with the countless possibilities of this prestigious and immaculately kept residence. \n\nIn catchment of Milton State School and Kelvin Grove College, you will also have your pick of some of Brisbaneâs most elite private schools such as Stuartholme School, Brisbane Girls Grammar and Brisbane Grammar School. Easily accessible public transport makes travel to the CBD, SouthBank, University of Queensland and local amenities a breeze. There may never be such a diverse opportunity in an advantageous location such as this again. A rare opportunity - inspect today.\n\nLower Level\nâ¢\tLower floor recently updated - comprising three bedrooms plus study, two bathrooms, generous open-plan living, dining & full kitchen\nâ¢\tBedrooms with built-in cabinetry, master inc. walk-through wardrobe & private ensuite\nâ¢\tLower level flows out to outdoor living area inc. sizeable covered patio & garden\nUpper Level\nâ¢\tUpstairs hosts three bedrooms, two bathrooms & living inc. gourmet kitchen, immense lounge, dining + sitting room & wrap-around balcony that connects with back deck\nâ¢\tBedrooms with built-ins/access to the main bathroom - master suite with walk-in robe + private ensuite\nâ¢\tWrap-around deck has walkway leading to additional separate space that enjoys multi-purpose as a shed or man cave\n\nSummary Features\nâ¢ Lavish two-storey functional & multi-purpose home next door to Frew Park\nâ¢ Multi-generational living opportunities & optimal outdoor areas 3km from Brisbane CBD\nâ¢ Renovated Queenslander affords separate entry to the lower & upper levels\nâ¢\tHome updated through high-grade stainless steel appliances, split-system+ ducted air-conditioning, security screens, new fencing &fresh paint both inside + out\nâ¢\tAdditional features include an abundance of lock-up storage, a workshop, covered parking for two vehicles & internal laundry facilities on both levels\nâ¢\tTwo levels multi-generational living via a lockable internal door & dual entrances, allowing your imagination to run wild with the countless possibilities\nâ¢\tCatchment for Milton State School/Kelvin Grove College + elite local private schools such as Stuartholme School, Brisbane Girls Grammar & Brisbane Grammar School.\nâ¢\tEasily accessible public transport to the CBD, South Bank & local amenities\n\nDean Property Team Pty Ltd has taken all reasonable steps to ensure that the information contained in this advertisement is true and correct but accept no responsibility and disclaim all liability in respect to any errors, omissions, inaccuracies or misstatements contained. Prospective buyers should make their own enquiries to verify the information contained in this advertisement.",
+  "agent_picture": "https://i2.au.reastatic.net/200x200-crop,gravity=north/00c66bd70b40ff12d75d8b519eb0110ce6807b5da80fd8da9d6759ddf875c5ec/main.jpg",
   "images": [
     {
       "url": "https://i2.au.reastatic.net/800x600/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
       "type": "main_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/d16f8784e3b999126cd507943f04fb05189fc576c68879ffc05956d83d5ab590/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/19edcb2086fd8021fdfbb6c57ef5fb78d4601ca7b98c771b560f39bf0ee99992/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/e59d14aae0ff9b095ca9e1226f06a7a0756aae9755b715b9a8fb2dbd10896518/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg\\\\\\\\\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/9b4581826afa03525ad3eb144e2ee0a9547e85290d952898f0d8bba4d737f65e/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/3d01214ed1ef77bf85edbc421f704ab53f79a8e0e64f1a057d23775027f9ddeb/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/0061c3e9ccf2c7d8840ac16099d08da963f9aa513183217903d18a44e0d92572/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/800x600/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/42baa1585aa842b07d338dcbf493bd1114eb07fdc636f947a4dc9a61b17c7f62/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/c09f6eeaa6c6432323f5a235e06740782d2b09c1dd0a3fe4741be91361d06a81/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/a45264e4f8ac0d3b3cf879998bae69145be2a58cfd0f45e40d7139bd132134e7/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/c90001ad527474bba47a8ef94278deefb23fa018e0646b620442094f22f92b18/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/a3c22c817ec9c966d388fea645a466ca8248a0544c0edaf7e5f273a10e16ab7d/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/9cb862820f180e2fd8652cf242a4671a89da78e003409cafbf9320c1cc8178f0/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/abfd1451c9cb16445625316bc44d64dc47d0cc0965244cc727b10cd5cf1f1349/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/ec50530bbcc3f5bdbf32b29e3a259e653e4cb326d9e68143dc6005310050aa51/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/300x170/b43fef4198b8147e5c51a863c776aad25edae8966c81ed2742c5c69dd5706e63/main.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/af8860dd9e8d33bba04c52e2ad4c26d10433617fd28c41e45bed7600713a37c3/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/64c0775cd31cc00de61bd388ec82ddc762e019c6374d907cf8a566ca296b9802/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
       "url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/00c66bd70b40ff12d75d8b519eb0110ce6807b5da80fd8da9d6759ddf875c5ec/main.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/ae9095a570fe51bdb6d1d37209467ebefee6a2f665370a68631a65850af416fe/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/00c66bd70b40ff12d75d8b519eb0110ce6807b5da80fd8da9d6759ddf875c5ec/main.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/original/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg\\\\\\\\\\\\\\",
       "type": "property_photo"
     },
     {
@@ -128,7 +70,131 @@
       "type": "property_photo"
     },
     {
+      "url": "https://i2.au.reastatic.net/{size}/9d4185238a19ce6f3a7d57c796ffb79600a184e9bdcc52da5d1f3bc52fd5561a/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/9cb862820f180e2fd8652cf242a4671a89da78e003409cafbf9320c1cc8178f0/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/d16f8784e3b999126cd507943f04fb05189fc576c68879ffc05956d83d5ab590/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/300x170/b43fef4198b8147e5c51a863c776aad25edae8966c81ed2742c5c69dd5706e63/main.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/abfd1451c9cb16445625316bc44d64dc47d0cc0965244cc727b10cd5cf1f1349/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/c90001ad527474bba47a8ef94278deefb23fa018e0646b620442094f22f92b18/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/c09f6eeaa6c6432323f5a235e06740782d2b09c1dd0a3fe4741be91361d06a81/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/19edcb2086fd8021fdfbb6c57ef5fb78d4601ca7b98c771b560f39bf0ee99992/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/ae9095a570fe51bdb6d1d37209467ebefee6a2f665370a68631a65850af416fe/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/e59d14aae0ff9b095ca9e1226f06a7a0756aae9755b715b9a8fb2dbd10896518/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a45264e4f8ac0d3b3cf879998bae69145be2a58cfd0f45e40d7139bd132134e7/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/b43fef4198b8147e5c51a863c776aad25edae8966c81ed2742c5c69dd5706e63/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/9b4581826afa03525ad3eb144e2ee0a9547e85290d952898f0d8bba4d737f65e/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/214bab3106ac154eda3df8d4b79b225f09673f5b3e30d3c7388b18e6fe45a52d/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/231fd7ee2d7cc56d366630e99babe0bd38ff10e0d27d8cb18b6220fc84f38903/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/00c66bd70b40ff12d75d8b519eb0110ce6807b5da80fd8da9d6759ddf875c5ec/main.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/d7939acfebf4681042d6670d9686fa96add01cd3aae9a5297c818825fc260daa/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a63ae3919c647a81559572aad68285ad741edc3ac0b163eb3d79b7cf73740a46/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/7d3d0b396df51ea6285a4c26047f1a11346df7d0852c7b0a32fed54b00a640c5/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/original/0e8d3559fa0a650bf455d4484bece96963333c2f5cbb2278c0307c41cffea487/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/a3c22c817ec9c966d388fea645a466ca8248a0544c0edaf7e5f273a10e16ab7d/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/64c0775cd31cc00de61bd388ec82ddc762e019c6374d907cf8a566ca296b9802/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/ec50530bbcc3f5bdbf32b29e3a259e653e4cb326d9e68143dc6005310050aa51/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/0061c3e9ccf2c7d8840ac16099d08da963f9aa513183217903d18a44e0d92572/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg\\\\\\\\\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/800x600-format=webp/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
+      "type": "property_photo"
+    },
+    {
       "url": "https://i2.au.reastatic.net/{size}/0e8d3559fa0a650bf455d4484bece96963333c2f5cbb2278c0307c41cffea487/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/d0e5f5952ae3aaf11ed8eac97379e80cef13157202923651f45b6ff1accecf8b/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/af8860dd9e8d33bba04c52e2ad4c26d10433617fd28c41e45bed7600713a37c3/image.jpg\\\\\\",
+      "type": "property_photo"
+    },
+    {
+      "url": "https://i2.au.reastatic.net/{size}/42baa1585aa842b07d338dcbf493bd1114eb07fdc636f947a4dc9a61b17c7f62/image.jpg\\\\\\",
       "type": "property_photo"
     },
     {
@@ -140,43 +206,44 @@
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/a63ae3919c647a81559572aad68285ad741edc3ac0b163eb3d79b7cf73740a46/image.jpg\\\\\\",
+      "url": "https://i2.au.reastatic.net/{size}/3d01214ed1ef77bf85edbc421f704ab53f79a8e0e64f1a057d23775027f9ddeb/image.jpg\\\\\\",
+      "type": "property_photo"
+    }
+  ],
+  "downloaded_images": [
+    {
+      "original_url": "https://i2.au.reastatic.net/800x600/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
+      "local_path": "data/images/149140304/main_photo_001.jpg",
+      "filename": "main_photo_001.jpg",
+      "size_bytes": 122711,
+      "type": "main_photo"
+    },
+    {
+      "original_url": "https://i2.au.reastatic.net/200x200-crop,gravity=north/00c66bd70b40ff12d75d8b519eb0110ce6807b5da80fd8da9d6759ddf875c5ec/main.jpg",
+      "local_path": "data/images/149140304/property_photo_002.jpg",
+      "filename": "property_photo_002.jpg",
+      "size_bytes": 7443,
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/b43fef4198b8147e5c51a863c776aad25edae8966c81ed2742c5c69dd5706e63/main.jpg\\\\\\",
+      "original_url": "https://i2.au.reastatic.net/300x170/b43fef4198b8147e5c51a863c776aad25edae8966c81ed2742c5c69dd5706e63/main.jpg",
+      "local_path": "data/images/149140304/property_photo_007.jpg",
+      "filename": "property_photo_007.jpg",
+      "size_bytes": 16356,
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/original/0e8d3559fa0a650bf455d4484bece96963333c2f5cbb2278c0307c41cffea487/image.jpg\\\\\\\\\\\\\\",
+      "original_url": "https://i2.au.reastatic.net/800x600/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
+      "local_path": "data/images/149140304/property_photo_020.jpg",
+      "filename": "property_photo_020.jpg",
+      "size_bytes": 122711,
       "type": "property_photo"
     },
     {
-      "url": "https://i2.au.reastatic.net/{size}/214bab3106ac154eda3df8d4b79b225f09673f5b3e30d3c7388b18e6fe45a52d/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/7d3d0b396df51ea6285a4c26047f1a11346df7d0852c7b0a32fed54b00a640c5/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/800x600-format=webp/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/9d4185238a19ce6f3a7d57c796ffb79600a184e9bdcc52da5d1f3bc52fd5561a/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/d0e5f5952ae3aaf11ed8eac97379e80cef13157202923651f45b6ff1accecf8b/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/231fd7ee2d7cc56d366630e99babe0bd38ff10e0d27d8cb18b6220fc84f38903/image.jpg\\\\\\",
-      "type": "property_photo"
-    },
-    {
-      "url": "https://i2.au.reastatic.net/{size}/d7939acfebf4681042d6670d9686fa96add01cd3aae9a5297c818825fc260daa/image.jpg\\\\\\",
+      "original_url": "https://i2.au.reastatic.net/800x600-format=webp/2178873212734b3e6c6d865aed772118824630bfcfdb8a0fcfb361720ff976ff/image.jpg",
+      "local_path": "data/images/149140304/property_photo_031.webp",
+      "filename": "property_photo_031.webp",
+      "size_bytes": 120358,
       "type": "property_photo"
     }
   ]
