@@ -50,12 +50,26 @@ pip install -r requirements.txt
 1. Visit: https://www.scrapingbee.com/
 2. Sign up for trial (1000 credits) or paid plan
 3. Get API key from dashboard
-4. Update the API key in `refined_xpath_extractor.py`
+4. Update the API key in both `property_listings_scraper.py` and `refined_xpath_extractor.py`
 
-### 3. Run the Scraper
+### 3. Run Incremental Sync (RECOMMENDED)
 
 ```bash
-# Extract single property with full details
+# Run complete two-stage incremental sync
+python3 incremental_property_scraper.py
+
+# This will:
+# 1. Scrape Brisbane listings (150+ properties per 2 pages)
+# 2. Filter out already-scraped properties
+# 3. Extract detailed data for new properties only
+# 4. Download images automatically
+# 5. Track progress for resume capability
+```
+
+### 4. Alternative: Single Property
+
+```bash
+# Extract specific property with full details
 python3 refined_xpath_extractor.py
 
 # Check extracted data
@@ -68,23 +82,62 @@ ls data/images/149008036/
 ## 📁 Project Structure
 
 ```
-├── refined_xpath_extractor.py    # 🎯 MAIN SCRAPER (USE THIS)
-├── scraper.py                    # Legacy Playwright-based scraper
-├── incremental_sync.py           # Sync functionality for ongoing scraping
-├── main.py                       # CLI interface for legacy scraper
-├── test_connection.py            # Test ScrapingBee connectivity
-├── test_scraper.py              # Test suite
-├── archive_experimental/         # Experimental scripts (archived)
+├── incremental_property_scraper.py  # 🎯 MAIN WORKFLOW (USE THIS)
+├── property_listings_scraper.py     # Stage 1: Extract property URLs from listings
+├── refined_xpath_extractor.py       # Stage 2: Extract detailed property data
+├── scraper.py                       # Legacy Playwright-based scraper
+├── incremental_sync.py              # Legacy sync functionality
+├── main.py                          # CLI interface for legacy scraper
+├── test_connection.py               # Test ScrapingBee connectivity
+├── test_scraper.py                 # Test suite
+├── archive_experimental/            # Experimental scripts (archived)
 ├── data/
-│   ├── properties/              # Extracted property JSON files
-│   ├── images/                  # Downloaded property images
-│   ├── html_inspection/         # Raw HTML for debugging
-│   └── logs/                    # Scraper logs and state
-├── CLAUDE.md                    # Developer instructions
-└── README.md                    # This file
+│   ├── tracking/                   # Sync state and property ID tracking
+│   ├── listings/                   # Raw listing page HTML (debugging)
+│   ├── properties/                 # Extracted property JSON files
+│   ├── images/                     # Downloaded property images
+│   ├── html_inspection/            # Raw HTML for debugging
+│   └── logs/                       # Legacy scraper logs
+├── TWO_STAGE_WORKFLOW.md           # Complete workflow documentation
+├── CLAUDE.md                       # Developer instructions
+└── README.md                       # This file
 ```
 
+## 🔄 Two-Stage Workflow (RECOMMENDED)
+
+### **Stage 1: Listings Scraper**
+Automatically finds property URLs from Brisbane search results:
+- Scrapes: `https://www.realestate.com.au/buy/property-house-in-brisbane+-+greater+region,+qld/list-1`
+- Finds: 150+ property URLs per 2 pages
+- Handles: Pagination automatically
+- Extracts: Property IDs for tracking
+
+### **Stage 2: Detail Extractor**
+Extracts comprehensive data for each property:
+- Uses: Your exact XPath selectors
+- Extracts: 20+ fields per property
+- Downloads: Property images automatically
+- Tracks: Scraped property IDs for incremental sync
+
+### **Incremental Sync Benefits**
+- ✅ **No duplicates**: Only scrapes new properties
+- ✅ **Resume capability**: Can stop and restart safely
+- ✅ **Cost efficient**: Only uses API credits for new properties
+- ✅ **Fresh data**: Always gets latest listings
+
 ## 🔧 Usage Examples
+
+### Incremental Sync (Main Workflow)
+
+```bash
+# Run complete incremental sync
+python3 incremental_property_scraper.py
+
+# Check results
+ls data/properties/          # Property JSON files
+ls data/images/             # Downloaded images
+cat data/tracking/sync_log.json  # Sync history
+```
 
 ### Basic Property Extraction
 
